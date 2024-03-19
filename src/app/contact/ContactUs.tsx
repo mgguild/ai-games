@@ -17,7 +17,9 @@ const ContactUs = () => {
               <input className="rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Email" type="email"/>
               <input className="rounded border border-gray-400 focus:outline-none text-base px-4 py-2 mb-4" placeholder="Subject"/>
               <textarea className="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none" placeholder="Message"></textarea>
-              <button className="text-white bg-gray-300 border-0 py-2 px-16 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send Email</button>
+              <div className="flex justify-center">
+                <button className="ml-4 inline-flex text-white py-2 px-6 border-2 border-gray-300 focus:outline-none hover:bg-gray-300 rounded text-lg">Lorem Ipsum</button>
+                </div>
             </div>
           </div>
         </div>
