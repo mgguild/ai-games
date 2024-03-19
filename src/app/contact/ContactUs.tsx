@@ -8,8 +8,8 @@ const ContactUs = () => {
         <div className=" flex px-16 py-24 md:flex-row flex-col items-center">
           <div className="container">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">CONTACT US</h1>
-            <p className="leading-relaxed mb-5 text-white text-base">Got questions, ideas, or collaboration inquiries? Reach out to us! We’re here to listen and connect. </p>
-            <p className="leading-relaxed mb-5 text-white text-base">Drop us a message at <a href="mailto:astrainteractivestudio@gmail.com">astrainteractivestudio@gmail.com</a>, and our team will get back to you promptly. For updates and insights, follow us on social media.</p>
+            <p className="leading-relaxed mb-5 text-white">Got questions, ideas, or collaboration inquiries? Reach out to us! We’re here to listen and connect. </p>
+            <p className="leading-relaxed mb-5 text-white">Drop us a message at <a href="mailto:astrainteractivestudio@gmail.com">astrainteractivestudio@gmail.com</a>, and our team will get back to you promptly. For updates and insights, follow us on social media.</p>
             <Image src="/Contact_Us.png" alt="logo" width={400} height={300} />
           </div>
           <div className="container">
