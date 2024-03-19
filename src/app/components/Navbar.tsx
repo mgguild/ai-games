@@ -24,14 +24,7 @@ const Navbar = () => {
         <div className="hidden md:flex">
         </div>
     
-        </div>
-        <div id="mobileMenu" className="hidden w-full mx-auto py-8 text-center">
-          <div className="flex flex-col justify-center items-center w-full">
-          <a href="#" className="block text-gray-200 cursor-pointer py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" >Services</a>
-          <a href="#" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" >Games</a>
-          <a href="#" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" >About Us</a>
-            <a href="#" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" >Contact</a>
-            </div>
+      
         </div>
   </nav>
   )

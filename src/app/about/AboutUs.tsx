@@ -3,7 +3,7 @@ import React from 'react'
 const AboutUs = () => {
   return (
     
-    <section id="about_us" className="text-gray-700 body-font min-h-screen">
+    <section id="about_us" className="text-gray-700 body-font min-h-screen w-screen">
           <div className="container px-5 py-16 mx-auto">
               <div className="flex flex-wrap w-full mb-1 flex-col items-center text-center">
                   <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-gray-900">About Us</h1>

@@ -5,8 +5,8 @@ import Image from "next/image"
 const Home = () => {
   return (
 
-    <section id="home" className="min-h-screen max-h-screen flex items-center justify-center bg-gray-800 w-full">
-    <div className="flex pl-16 pr-16 py-24 items-center text-center">
+    <section id="home" className="min-h-screen flex flex-col items-center justify-center bg-gray-800 w-full">
+    <div className="flex pl-16 pr-16 py-24 items-center text-center flex-col md:flex-row">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h2 className="text-base text-white tracking-widest font-medium title-font mb-1">Welcome to</h2>
         <h1 className="title-font sm:text-4xl text-5xl mb-4 font-large text-white text-shadow text-bold">Astra Interactive Studios
