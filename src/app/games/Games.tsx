@@ -18,9 +18,9 @@ const Games = () => {
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Casual Adventures:
                         </h1>
                         <p className="mb-8 leading-relaxed text-lg">Dive into enchanting worlds filled with puzzles, adventures, and endless fun for players of all ages.</p>
-                        <div className="flex justify-center">
+                        {/* <div className="flex justify-center">
                         <button className="ml-4 inline-flex text-black py-2 px-6 border-2 border-gray-300 focus:outline-none hover:bg-gray-300 rounded text-lg">Lorem Ipsum</button>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <Image src="/Casual Adventures.png" alt="logo" width={400} height={300} objectPosition='relative'/>
@@ -35,9 +35,9 @@ const Games = () => {
                         <h1 className="title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900">Web3 Immersion
                         </h1>
                         <p className="mb-8 leading-relaxed text-lg">Experience the power of blockchain in gaming through our web3-enabled titles, offering ownership and immersive gameplay.</p>
-                        <div className="flex justify-center">
+                        {/* <div className="flex justify-center">
                         <button className="ml-4 inline-flex text-black py-2 px-6 border-2 border-gray-300 focus:outline-none hover:bg-gray-300 rounded text-lg">Lorem Ipsum</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 
@@ -46,9 +46,9 @@ const Games = () => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Innovative Concepts:
                     </h1>
                     <p className="mb-8 leading-relaxed text-lg">Engage with our unique concepts that push boundaries and redefine gaming experiences.</p>
-                    <div className="flex justify-center">
+                    {/* <div className="flex justify-center">
                     <button className="ml-4 inline-flex text-black py-2 px-6 border-2 border-gray-300 focus:outline-none hover:bg-gray-300 rounded text-lg">Lorem Ipsum</button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                 <Image src="/Innovative Concepts.png" alt="logo" width={400} height={300} objectPosition='relative'/>
