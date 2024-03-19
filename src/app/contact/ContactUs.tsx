@@ -9,7 +9,7 @@ const ContactUs = () => {
           <div className="container">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">CONTACT US</h1>
             <p className="leading-relaxed mb-5 text-white">Got questions, ideas, or collaboration inquiries? Reach out to us! We’re here to listen and connect. </p>
-            <p className="leading-relaxed mb-5 text-white">Drop us a message at <a href="mailto:astrainteractivestudio@gmail.com">astrainteractivestudio@gmail.com</a>, and our team will get back to you promptly. For updates and insights, follow us on [social media handles].</p>
+            <p className="leading-relaxed mb-5 text-white">Drop us a message at <a href="mailto:astrainteractivestudio@gmail.com">astrainteractivestudio@gmail.com</a>, and our team will get back to you promptly. For updates and insights, follow us on social media.</p>
             <Image src="/Contact_Us.png" alt="logo" width={400} height={300} />
           </div>
           <div className="container">
@@ -17,7 +17,9 @@ const ContactUs = () => {
               <input className="rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Email" type="email"/>
               <input className="rounded border border-gray-400 focus:outline-none text-base px-4 py-2 mb-4" placeholder="Subject"/>
               <textarea className="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none" placeholder="Message"></textarea>
-              <button className="text-white bg-gray-300 border-0 py-2 px-16 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send Email</button>
+              <div className="flex justify-center">
+                <button className="ml-4 inline-flex text-white py-2 px-6 border-2 border-gray-300 focus:outline-none hover:bg-gray-300 rounded text-lg">Send Email</button>
+                </div>
             </div>
           </div>
         </div>
