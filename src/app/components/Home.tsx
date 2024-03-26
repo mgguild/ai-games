@@ -8,7 +8,7 @@ const Home = () => {
     <section id="home" className="min-h-screen flex flex-col items-center justify-center bg-gray-800 w-full">
     <div className="flex pl-16 pr-16 py-24 items-center text-center flex-col md:flex-row">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h2 className="text-xs text-white tracking-widest font-medium title-font mb-1">Welcome to</h2>
+      <h2 className="text-base text-white tracking-widest font-medium title-font mb-1">Welcome to</h2>
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-large text-white text-shadow text-bold">Astra Interactive Studios
         </h1>
         <p className="mb-8 leading-relaxed text-white ">Where imagination meets innovation! Our studio pioneers in crafting captivating web3 and casual games that redefine entertainment. Explore our world of immersive gaming experiences and unlock the extraordinary.</p>
