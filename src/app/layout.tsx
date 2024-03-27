@@ -5,8 +5,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Astra Interactive Studio',
-  description: 'Astra Interactive Studio',
+  title: 'Astra Interactive Studios',
+  description: 'Astra Interactive Studios',
 }
 
 export default function RootLayout({
