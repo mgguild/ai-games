@@ -15,8 +15,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black fixed w-full z-10 top-0 ">
-    <div className="max-w-xl mx-auto px-4 sm:px-4 lg:px-24" style={{ height: "7.7vh" }}>
-    <div className="flex items-center"> 
+    <div className="max-w-xl mx-auto px-4 sm:px-4 lg:px-24 h-[10vh] sm:h-[10vh]">
+    <div className="flex items-center justify-around sm:pb-0 pt-4 pb-4 "> 
       <div className="flex-shrink-0 mr-4"> 
         <a href="/" className="text-white" onClick={closeNavbar}>
           <Image src="/aig_logo_small.png" alt="logo" width={50} height={40} objectPosition='relative' />
