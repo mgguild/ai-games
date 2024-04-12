@@ -15,15 +15,19 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black fixed w-full z-10 top-0 ">
-    <div className="max-w-xl mx-auto px-4 sm:px-4 lg:px-24 h-[10vh] sm:h-[10vh]">
-    <div className="flex items-center justify-around sm:pb-0 pt-4 pb-4 "> 
-      <div className="flex-shrink-0 mr-4"> 
+    <div className="max-w-8xl mx-auto px-4">
+    <div className="flex items-center justify-around lg:pb-4 sm:pb-4 pt-4 pb-4 "> 
+      <div className="flex-shrink-0 mr-50"> 
         <a href="/" className="text-white" onClick={closeNavbar}>
           <Image src="/aig_logo_small.png" alt="logo" width={50} height={40} objectPosition='relative' />
         </a>
       </div>
       <div className="hidden md:block">
-        <div className="ml-4 flex justify-center items-center space-x-4">
+        <div className="ml-72 flex justify-center items-center space-x-4">
+        </div>
+      </div>
+      <div className="hidden md:block">
+        <div className="ml-16 mr-26 flex justify-center items-center space-x-4">
           <a href="#services" className="text-white transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
             Services
           </a>
@@ -38,6 +42,15 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      <div className="hidden md:block">
+        <div className="ml-60 flex justify-center items-center space-x-4">
+        </div>
+      </div>
+      <div className="hidden md:block">
+        <div className="ml-40 flex justify-center items-center space-x-4">
+        </div>
+      </div>
+      
       <div className="md:hidden ml-auto"> 
         <button className="inline-flex p-4 rounded-md text-white md:text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" onClick={toggleNavbar}>
           {isClick ? (
@@ -52,6 +65,7 @@ const Navbar = () => {
         </button>
       </div>
     </div>
+    
   </div>
       {isClick && (
         <div className="md:hidden text-center">

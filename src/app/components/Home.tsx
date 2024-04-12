@@ -7,7 +7,7 @@ const Home = () => {
       id="home"
       className="min-h-screen flex flex-col items-center justify-center bg-gray-800 w-full"
     >
-      <div className="flex pl-16 pr-16 py-24 items-center text-center flex-col md:flex-row">
+      <div className="flex pt-32 pl-16 pr-16 py-24 items-center text-center flex-col md:flex-row">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="text-md text-white tracking-widest font-medium title-font mb-1">
             Welcome to
