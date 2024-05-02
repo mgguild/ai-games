@@ -50,7 +50,7 @@ const ContactUs = () => {
                 
                       <a
                         className=" text-white pr-4"
-                        href="http://astraistudios.medium.com/"
+                        href="https://medium.com/@astraistudios"
                         target="_blank"
                       >
                       <svg xmlns="http://www.w3.org/2000/svg" 
