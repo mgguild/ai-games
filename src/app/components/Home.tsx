@@ -1,5 +1,7 @@
+"use client"
 import React from "react";
 import Image from "next/image";
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
@@ -12,9 +14,29 @@ const Home = () => {
           <h1 className="text-md text-white tracking-widest font-medium title-font mb-1">
             Welcome to
           </h1>
-          <h1 className="title-font sm:text-6xl text-6xl mb-6 font-large text-white text-shadow text-bold">
-            Astra Interactive Studios
-          </h1>
+            {/* mobile view */}
+            <h1 className="sm:hidden title-font sm:text-6xl text-6xl mb-6 font-large text-white text-shadow text-bold">
+              Astra Interactive Studios
+            </h1>
+
+            {/* Desktop view */}
+            <div className="text-container hidden md:block">
+            <TypeAnimation
+              sequence={[
+               
+                'Astra Interactive Studios',
+                1000, 
+               
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: '4em', display: 'inline-block', color: 'white', textShadow: '2px 2px 4px #000', fontWeight: '' }}
+              repeat={1}
+            />
+            </div>
+
+            
+            
           <p className="mb-8 leading-relaxed sm:text-2xl text-white ">
             Where imagination meets innovation! Our studio pioneers in crafting
             captivating web3 and casual games that redefine entertainment.

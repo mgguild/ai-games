@@ -4,7 +4,7 @@ import Image from "next/image"
 const Games = () => {
   return (
             <section id="games" className="text-gray-700 body-font min-h-screen ">
-            <div className="pl-16 pr-16 py-24 items-center md:px-0 ">
+            <div className="pl-8 pr-8 py-24 items-center md:px-0 ">
                 <div className="flex flex-col text-center w-full mb-15 lg:pb-0 md:pb-32">
                     <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-gray-900">Games</h1>
                     <div className="border-t border-black w-1/4 mx-auto mb-4"></div>
@@ -12,6 +12,43 @@ const Games = () => {
                     Explore our diverse portfolio of games, each crafted with passion and precision:
                     </h2>
                 </div>
+
+                  {/* Game Collections */}
+                  
+                  <div className="py-0 px-0 md:px-32">
+                    <div className="flex flex-wrap justify-center mt-4">
+                      
+                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0 rounded-xl flex justify-center items-center padding text-black relative">
+                        <img className="object-cover rounded-xl" src="/msw_gamessection.png" width="400" height="350" alt="Truc cool 1" />
+                        <div className="absolute bottom-0 left-0 right-0 p-4 md:p-9 text-white">
+                          <div className="font-medium mb-2 text-lg">MetaSaga Warriors</div>
+                          <p className="mb-3 text-sm">A free-to-own NFT roguelike where you lead a party to stop encroaching corruption.</p>
+                          <a href="https://msw.gg" target="_blank" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View Game</a>
+                        </div>
+                      </div>
+                      
+                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0 rounded-xl flex justify-center items-center padding text-black relative">
+                        <img className="object-cover rounded-xl" src="/orbblitz.png" width="400" height="350" alt="Truc cool 2" />
+                        <div className="absolute bottom-0 left-0 right-0 p-4 md:p-9 text-white">
+                          <div className="font-medium mb-2 text-lg">Orblitz</div>
+                          <p className="mb-3 text-sm ">An arena shooter where you utilize orbiting orbs to defeat waves of enemies.</p>
+                          <a className="bg-gray-500 text-white font-bold py-2 px-4 rounded ">Coming Soon</a>
+                        </div>
+                      </div>
+                      
+                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0 rounded-xl flex justify-center items-center padding text-black relative">
+                        <img className="object-cover rounded-xl" src="/heltoons.png" width="400" height="350" alt="Truc cool 3" />
+                        <div className="absolute bottom-0 left-0 right-0 p-4 md:p-9 text-white">
+                          <div className="font-medium mb-2 text-lg">Hel-toons: Card Clash</div>
+                          <p className="mb-3 text-sm">Build your toon army with this card collecting game with short but tense matches!</p>
+                          <a className="bg-gray-500 text-white font-bold py-2 px-4 rounded">Coming Soon</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+
 
                 <div className="container mx-auto flex lg:px-36 lg:py-24 md:flex-row flex-col md:py-1 md:px-1 items-center">
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -35,6 +72,7 @@ const Games = () => {
 
                 </div>
 
+                
                 <div className="container mx-auto flex lg:px-36 lg:py-24 md:flex-row flex-col md:py-1 md:px-1 items-center">
                      {/* desktop view only */}
                      <div className="hidden lg:block lg:max-w-lg lg:w-full md:w-full w-full">

@@ -28,16 +28,16 @@ const Navbar = () => {
       </div>
       <div className="hidden md:block">
         <div className="ml-16 mr-26 flex justify-center items-center space-x-4">
-          <a href="#services" className="text-white transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
+          <a href="#services" className="text-white  focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
             Services
           </a>
-          <a href="#games" className="text-white transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
+          <a href="#games" className="text-white  focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
             Games
           </a>
-          <a href="#about_us" className="text-white transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
+          <a href="#about_us" className="text-white  focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
             About
           </a>
-          <a href="#contact_us" className="text-white transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
+          <a href="#contact_us" className="text-white  focus:text-yellow-500 focus:underline hover:underline hover:text-white" onClick={closeNavbar}>
             Contact
           </a>
         </div>
