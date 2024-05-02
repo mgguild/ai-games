@@ -18,7 +18,7 @@ const Home = () => {
             <h1 className="sm:hidden title-font sm:text-6xl text-6xl mb-6 font-large text-white text-shadow text-bold">
               Astra Interactive Studios
             </h1>
-             
+
             {/* Desktop view */}
             <div className="text-container hidden md:block">
             <TypeAnimation
@@ -26,17 +26,12 @@ const Home = () => {
                
                 'Astra Interactive Studios',
                 1000, 
-                '',
-                1000,
-                'Astra Interactive Studios',
-                1000,
-                '',
-                1000
+               
               ]}
               wrapper="span"
               speed={50}
               style={{ fontSize: '4em', display: 'inline-block', color: 'white', textShadow: '2px 2px 4px #000', fontWeight: '' }}
-              repeat={Infinity}
+              repeat={1}
             />
             </div>
 
