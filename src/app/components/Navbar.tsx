@@ -31,7 +31,7 @@ const Navbar = () => {
             <a href="#services" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               Services
             </a>
-            <a href="#portfolio" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
+            <a href="#games" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               Portfolio
             </a>
             <a href="#team" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
@@ -66,7 +66,7 @@ const Navbar = () => {
             <a href="#services" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               SERVICES
             </a> 
-            <a href="#portfolio" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
+            <a href="#games" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               PORTFOLIO
             </a>
             <a href="#team" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
