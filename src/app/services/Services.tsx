@@ -14,7 +14,7 @@ const Services = () => {
                     <div className="flex justify-between gap-6">
                       <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg" style={{ height: '460px', width: '340px' }}>
                         <div className="relative left-20 right-20 z-15">
-                          <Image src="/team/icon.png" alt="icon" width={150} height={140} />
+                          <Image src="/game development icon.png" alt="icon" width={150} height={140} />
                         </div>
                         <div className="container pb-24">
                           <h1 className="pb-0 text-center lg:text-xl md:text-lg text-xl font-bold text-violet-700 mb-4">Game Development</h1>
@@ -26,9 +26,9 @@ const Services = () => {
                       </div>
                       <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg" style={{ height: '460px', width: '340px' }}>
                         <div className="relative left-20 right-20 z-15">
-                          <Image src="/team/icon.png" alt="icon" width={150} height={140} />
+                          <Image src="/web3 icon.png" alt="icon" width={150} height={140} />
                         </div>
-                        <h1 className="pb-0 text-center md:text-xl text-2xl font-bold text-violet-700">Web3 Integration</h1>
+                        <h1 className="pb-4 text-center md:text-xl text-2xl font-bold text-violet-700">Web3 Integration</h1>
                         <p className="sm:mb-10 mb-0 mx-2 text-center md:text-sm leading-none text-based font-medium text-gray-800">
                         Embrace the future of gaming with our seamless integration of Blockchain and Web3 functionalities. We're revolutionizing 
                         gameplay and ownership, enabling secure, transparent interactions and true digital ownership that transform player experiences. 
@@ -40,7 +40,7 @@ const Services = () => {
                     <div className="flex justify-between gap-6">
                       <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg" style={{ height: '460px', width: '340px' }}>
                         <div className="relative left-20 right-20 z-15">
-                          <Image src="/team/icon.png" alt="icon" width={150} height={140} />
+                          <Image src="/custom solutions icon.png" alt="icon" width={150} height={140} />
                         </div>
                         <div className="container pb-24">
                           <h1 className="pb-0 text-center lg:text-xl md:text-lg text-xl font-bold text-violet-700 mb-4">Custom Solutions</h1>
@@ -52,11 +52,11 @@ const Services = () => {
                         </div>
                       </div>
                       <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg" style={{ height: '460px', width: '340px' }}>
-                        <div className="relative left-20 right-20 z-15">
-                          <Image src="/team/icon.png" alt="icon" width={150} height={140} />
+                        <div className="relative left-20 right-20 z-15 pt-4 mb-5">
+                          <Image src="/consultation icon.png" alt="icon" width={150} height={140} />
                         </div>
-                        <h1 className="pb-0 text-center md:text-xl text-2xl font-bold text-violet-700">Consultation</h1>
-                        <p className="sm:mb-10 mb-0 mx-2 text-center md:text-sm leading-none text-based font-medium text-gray-800">
+                        <h1 className="pb-0 text-center lg:text-xl md:text-lg text-xl font-bold text-violet-700 mb-4">Consultation</h1>
+                        <p className="sm:mb-10 mb-0 mx-6 text-center leading-none lg:text-sm md:text-xs text-based font-medium text-gray-800">
                         Leverage the expertise of our seasoned professionals for comprehensive guidance tailored to your project. 
                         We ensure your game aligns perfectly with current industry trends and user preferences, helping you 
                         make informed decisions that elevate your game’s impact and success.
