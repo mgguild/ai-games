@@ -31,18 +31,11 @@ module.exports = {
       },
 
       colors: {
-        green: {
-          50: '#30AF5B',
-          90: '#292C27',
+        lightblue: {
+          DEFAULT: '#DFF3FC',
         },
-        orange: {
-          50: '#FF814C',
-        },
-        blue: {
-          70: '#021639',
-        },
-        yellow: {
-          50: '#FEC601',
+        brand: {
+          DEFAULT: '#232323',
         },
       },
      

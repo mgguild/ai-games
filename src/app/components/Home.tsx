@@ -13,11 +13,11 @@ const Home = () => {
         <Image
           src="/logo.png"
           alt="logo"
-          width={300}
-          height={200}
+          width={260}
+          height={160}
           objectPosition="relative"
         />
-        <h1 className=" sm:text-7xl text-4xl text-white text-center font-bold title-font mt-5">
+        <h1 className=" sm:text-6xl text-4xl text-white text-center font-bold title-font mt-5">
           ASTRA INTERACTIVE STUDIOS, INC
         </h1>
       </div>

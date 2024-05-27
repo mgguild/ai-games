@@ -67,21 +67,21 @@ const ContactUs = () => {
                     type="text"
                     name="user_name"
                     placeholder="Name"
-                    className="w-full px-4 py-2 mb-4 placeholder-gray-500 text-gray-700 bg-blue-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
+                    className="w-full px-4 py-2 mb-4 placeholder-gray-500 text-gray-700 bg-lightblue rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
                     required
                   />
                   <input
                     type="email"
                     name="user_email"
                     placeholder="Email"
-                    className="w-full px-4 py-2 mb-2 placeholder-gray-500 text-gray-700 bg-blue-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
+                    className="w-full px-4 py-2 mb-2 placeholder-gray-500 text-gray-700 bg-lightblue rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
                     required
                   />
                 </div>
                 <textarea
                   name="message"
                   placeholder="Your Message"
-                  className="w-full px-4 pt-3 pb-8  mb-4 placeholder-gray-500 text-gray-700 bg-blue-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
+                  className="w-full px-4 pt-3 pb-28  mb-4 placeholder-gray-500 text-gray-700 bg-lightblue rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
                   required
                 ></textarea>
                 <button
