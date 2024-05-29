@@ -96,7 +96,7 @@ const ContactUs = () => {
                 <p>Thank you for your message!</p>
                 <button
                   onClick={resetForm}
-                  className="inline-flex mt-4 text-white py-2 px-8 bg-gradient-to-br from-blue-200 to-violet-600 border-2 border-none focus:outline-none hover:bg-gray-300 rounded text-lg font-sans"
+                  className="inline-flex mt-4 text-white py-2 px-8 bg-gradient-to-br from-blue-200 to-violet-600 border-2 border-none focus:outline-none hover:bg-gray-300 rounded text-based font-sans"
                 >
                   Send Another Message
                 </button>
