@@ -9,7 +9,7 @@ const Services = () => {
                 <h1 className="title-font sm:text-4xl text-5xl mb-16 font-bold text-purple-800">SERVICES</h1>
             </div>
             
-            <div className="hidden below-1024:hidden md:block ">
+            <div className="flex sm:flex-col flex-row justify-center">
                   <div className="flex justify-center items-center pt-12">
                     <div className="flex justify-between gap-6">
                     <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col  items-center" style={{ height: '460px', width: '340px' }}>
@@ -67,7 +67,7 @@ const Services = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+            </div>
         </div>
         </section>
   )
