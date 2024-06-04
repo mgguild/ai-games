@@ -18,9 +18,9 @@ const AboutUs = () => {
           to craft exceptional games that resonate with audiences globally. We are committed to excellence and constantly 
           seek to raise the bar in gaming through innovation and creativity.
           </p>
-          <button className="mt-16 bg-transparent font-bold text-purple-800 border-2 border-purple-800 rounded-full py-3 px-6 transition-colors duration-300 hover:bg-purple-500 hover:text-white">
+          {/* <button className="mt-16 bg-transparent font-bold text-purple-800 border-2 border-purple-800 rounded-full py-3 px-6 transition-colors duration-300 hover:bg-purple-500 hover:text-white">
             GET TO KNOW US
-          </button>
+          </button> */}
         </div>
         
       </div>
