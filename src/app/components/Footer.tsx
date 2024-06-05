@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="flex justify-center lg:ml-auto lg:mt-0 mt-6 w-full mb-5 md:w-auto">
                   
                       <a
-                        className=" text-violet-800 pr-4"
+                        className=" text-violet-800 pr-2 pl-2"
                         href="https://www.facebook.com/astraistudios"
                         target="_blank"
                       >
@@ -39,7 +39,7 @@ const Footer = () => {
                     
                   
                       <a
-                        className=" text-violet-800  pr-4"
+                        className=" text-violet-800 pr-2 pl-2"
                         href="https://twitter.com/astraistudios"
                         target="_blank"
                       >
@@ -66,7 +66,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-violet-800  pr-4"
+                        className=" text-violet-800 pr-2 pl-2"
                         href="https://www.youtube.com/@astraistudios"
                         target="_blank"
                       >
@@ -83,7 +83,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-violet-800  pr-4"
+                        className=" text-violet-800 pr-2 pl-2"
                         href="https://www.reddit.com/r/astraistudios/"
                         target="_blank"
                       >
@@ -94,7 +94,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-violet-800  pr-4"
+                        className=" text-violet-800  pr-2 pl-2"
                         href="mailto:astrainteractivestudio@gmail.com"
                       >
                         <svg
@@ -115,11 +115,11 @@ const Footer = () => {
               </div>
               
             </div>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center space-x-6">
+            <div className="w-full flex flex-col md:flex-row justify-center items-center space-x-4">
               <p className="text-base text-gray-500 mb-4 md:mb-0">
                 Copyright © 2024 All rights reserved
               </p>
-              <div className="flex space-x-6">
+              <div className="flex space-x-4 ">
                 <a
                   href="privacy-policy" target="_blank"
                   className="text-base text-white"
