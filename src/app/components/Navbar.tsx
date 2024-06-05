@@ -60,6 +60,9 @@ const Navbar = () => {
         <div className="md:hidden text-center">
           <div className="px-5 pt-5 pb-9 space-y-2">
           
+            <a href="/" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
+              HOME
+            </a>
             <a href="#about_us" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               ABOUT
             </a>
