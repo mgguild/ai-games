@@ -7,7 +7,7 @@ const Games = () => {
             style={{ backgroundImage: "url('/blue BG.png')"}}>
             <div className="pl-8 pr-8 py-24 items-center md:px-0 ">
                 <div className="flex flex-col text-center w-full mb-15 lg:pb-0 md:pb-32">
-                    <h1 className="title-font sm:text-4xl text-5xl mb-6 font-bold text-white">GAMES PORTFOLIO</h1>
+                    <h1 className="sm:text-4xl text-3xl  mb-6 font-bold text-white">GAMES PORTFOLIO</h1>
                 </div>
              
                   <div className="flex flex-wrap justify-center mt-4">

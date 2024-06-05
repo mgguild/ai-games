@@ -6,7 +6,7 @@ const Services = () => {
         <section id="services" className="text-gray-700 body-font min-h-screen ">
         <div className=" pl-16 pr-16 py-24 items-center md:px-0">
             <div className="flex flex-col text-center w-full mb-15 pt-4 lg:pb-0 md:pb-32">
-                <h1 className="title-font sm:text-4xl text-5xl mb-16 font-bold text-purple-800">SERVICES</h1>
+                <h1 className="sm:text-4xl text-3xl mb-16 font-bold text-purple-800">SERVICES</h1>
             </div>
             
               {/* desktop view */}
