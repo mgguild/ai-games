@@ -10,13 +10,30 @@ const Helltoons= () => {
         <div className="bg-white rounded-3xl leading-10">
         <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
-            <p className="mb-4">Your privacy is important to us. It is Helltoons: Card Clash's policy to respect your privacy regarding any information we may collect from you across our game, and other sites we own and operate.</p>
-            <p className="mb-4">We only ask for personal information when we truly need it to provide service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
-            <p className="mb-4">We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification</p>
-            <p className="mb-4">We don’t share any personally identifying information publicly or with third parties, except when required to by law.</p>
-            <p className="mb-4">Our game may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
-            <p className="mb-4">You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.</p>
-            <p className="mb-4">Your continued use of our website will be regarded as an acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
+            <p className="mb-4">Welcome to the beta version of Helltoons: Card Clash, a card game designed for players aged 18 and above. Your privacy is important to us, and this Privacy Policy outlines how we handle your information while you enjoy our game. As this is a beta version, we do not require any personal details from players at this time. Please read this policy carefully to understand our practices regarding your information.</p>
+                
+            <h2 className="text-xl font-bold mb-2">Personal Information</h2>
+            <ul className="list-disc list-inside mb-2">
+                <li>We do not collect any personal information such as names, email addresses, or phone numbers from players.</li>
+                <li>No registration or account creation is required to play Helltoons: Card Clash.</li>
+            </ul>
+            <h2 className="text-xl font-bold mb-2">Usage Data</h2>
+            <ul className="list-disc list-inside mb-2">
+                <li>During this beta phase, we do not track or store any usage data related to your gameplay, including but not limited to your in-game actions, preferences, or progress.</li>
+            </ul>
+            <h2 className="text-xl font-bold mb-2">Cookies and Tracking Technologies</h2>
+            <ul className="list-disc list-inside mb-2">
+                <li>We do not use cookies or any other tracking technologies to monitor your activity on our game.</li>
+            </ul>
+            <h2 className="text-xl font-bold mb-2">Data Security</h2>
+            <ul className="list-disc list-inside mb-2">
+                <li>Although we do not collect personal information, we are committed to ensuring the security of any data related to our game. Our development environment and any associated infrastructure are secured to prevent unauthorized access.</li>
+            </ul>
+            <h2 className="text-xl font-bold mb-2">Third-Party Services</h2>
+            <ul className="list-disc list-inside mb-2">
+                <li>Our app collects unique device identifiers, such as the md5 of ANDROID_ID, to provide essential functionalities through PlayFab services. This includes but is not limited to user authentication, data synchronization, and game analytics. The data is securely transmitted to and processed by PlayFab, a service provided by Microsoft, in compliance with privacy and data protection regulations. Please be aware that we have no control over the content and practices of PlayFab, and cannot accept responsibility and liability for their respective privacy policies.</li>
+            </ul>
+            <p className="mb-4">We may update our Privacy Policy from time to time or once the full version releases. Continued use of the game after changes are made signifies your acceptance of the new policy. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
             <p className="mb-4">This policy is effective as of June 2024.</p>
         </div>
         </div>
