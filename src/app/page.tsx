@@ -12,11 +12,11 @@ export default function Hero() {
       <div id="about_us">
         <AboutUs />
       </div>
-      <div id="services">
-        <Services />
-      </div>
       <div id="games">
         <Games />
+      </div>
+      <div id="services">
+        <Services />
       </div>
       <div id="team">
         <Team />

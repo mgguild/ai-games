@@ -10,7 +10,7 @@ const Helltoons= () => {
         <div className="bg-white rounded-3xl leading-10">
         <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
-            <p className="mb-4">Welcome to the beta version of Helltoons: Card Clash, a card game designed for players aged 18 and above. Your privacy is important to us, and this Privacy Policy outlines how we handle your information while you enjoy our game. As this is a beta version, we do not require any personal details from players at this time. Please read this policy carefully to understand our practices regarding your information.</p>
+            <p className="mb-4">Welcome to the beta version of Helltoons, a card game designed for players aged 18 and above. Your privacy is important to us, and this Privacy Policy outlines how we handle your information while you enjoy our game. As this is a beta version, we do not require any personal details from players at this time. Please read this policy carefully to understand our practices regarding your information.</p>
                 
             <h2 className="text-xl font-bold mb-2">Personal Information</h2>
             <ul className="list-disc list-inside mb-2">

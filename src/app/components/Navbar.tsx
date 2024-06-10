@@ -15,10 +15,10 @@ const Navbar = () => {
 
   return (
     <nav className="bg-brand fixed sm:w-3/4 w-full z-10 top-0 sm:left-40 left-0">
-      <div className="max-w-8xl mx-auto px-4 flex sm:justify-around justify-between items-center py-4">
-        <div className="flex items-center space-x-4">
+      <div className="max-w-8xl mx-auto px-6 flex sm:justify-around justify-between items-center py-4">
+        <div className="flex items-center space-x-11">
           <a href="/" className="text-white" onClick={closeNavbar}>
-            <Image src="/ais_nav_logo.png" alt="logo" width={30} height={20} />
+            <Image src="/aig_logo_small.png" alt="logo" width={45} height={30} />
           </a>
           <h1 className="hidden sm:block text-xl font-bold whitespace-nowrap text-white">ASTRA INTERACTIVE STUDIOS, INC.</h1>
         </div>
@@ -28,11 +28,11 @@ const Navbar = () => {
             <a href="#about_us" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               About
             </a>
-            <a href="#services" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
-              Services
-            </a>
             <a href="#games" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               Portfolio
+            </a>
+            <a href="#services" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
+              Services
             </a>
             <a href="#team" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               Team
@@ -66,12 +66,12 @@ const Navbar = () => {
             <a href="#about_us" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               ABOUT
             </a>
-            <a href="#services" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
-              SERVICES
-            </a> 
             <a href="#games" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               PORTFOLIO
             </a>
+            <a href="#services" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
+              SERVICES
+            </a> 
             <a href="#team" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               TEAM
             </a>
