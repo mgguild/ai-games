@@ -15,8 +15,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-brand fixed sm:w-3/4 w-full z-10 top-0 sm:left-40 left-0">
-      <div className="max-w-8xl mx-auto px-4 flex sm:justify-around justify-between items-center py-4">
-        <div className="flex items-center space-x-4">
+      <div className="max-w-8xl mx-auto px-6 flex sm:justify-around justify-between items-center py-4">
+        <div className="flex items-center space-x-11">
           <a href="/" className="text-white" onClick={closeNavbar}>
             <Image src="/aig_logo_small.png" alt="logo" width={45} height={30} />
           </a>
