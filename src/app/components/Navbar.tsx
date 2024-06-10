@@ -28,11 +28,11 @@ const Navbar = () => {
             <a href="#about_us" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               About
             </a>
-            <a href="#services" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
-              Services
-            </a>
             <a href="#games" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               Portfolio
+            </a>
+            <a href="#services" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
+              Services
             </a>
             <a href="#team" className="text-white font-medium focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               Team
@@ -66,12 +66,12 @@ const Navbar = () => {
             <a href="#about_us" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               ABOUT
             </a>
-            <a href="#services" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
-              SERVICES
-            </a> 
             <a href="#games" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               PORTFOLIO
             </a>
+            <a href="#services" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
+              SERVICES
+            </a> 
             <a href="#team" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none  focus:underline hover:underline hover:text-violet-600 " onClick={closeNavbar}>
               TEAM
             </a>
