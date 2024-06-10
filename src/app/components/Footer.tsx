@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="md:w-96 w-full px-4">
               <a href="/" className="flex justify-center w-full  md:w-auto mb-5"> 
                 <Image
-                  src="/logo small.png"
+                  src="/android-chrome-512x512.png"
                   alt="logo"
                   width={100}
                   height={100}
@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="flex justify-center lg:ml-auto lg:mt-0 mt-6 w-full mb-5 md:w-auto">
                   
                       <a
-                        className=" text-violet-800 pr-2 pl-2"
+                        className=" text-white pr-2 pl-2"
                         href="https://www.facebook.com/astraistudios"
                         target="_blank"
                       >
@@ -39,7 +39,7 @@ const Footer = () => {
                     
                   
                       <a
-                        className=" text-violet-800 pr-2 pl-2"
+                        className=" text-white pr-2 pl-2"
                         href="https://twitter.com/astraistudios"
                         target="_blank"
                       >
@@ -56,7 +56,7 @@ const Footer = () => {
                       </a>
                 
                       <a
-                        className=" text-violet-800 pr-4"
+                        className=" text-white pr-4"
                         href="https://medium.com/@astraistudios"
                         target="_blank"
                       >
@@ -66,7 +66,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-violet-800 pr-2 pl-2"
+                        className=" text-white pr-2 pl-2"
                         href="https://www.youtube.com/@astraistudios"
                         target="_blank"
                       >
@@ -83,7 +83,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-violet-800 pr-2 pl-2"
+                        className=" text-white pr-2 pl-2"
                         href="https://www.reddit.com/r/astraistudios/"
                         target="_blank"
                       >
@@ -94,7 +94,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-violet-800  pr-2 pl-2"
+                        className=" text-white  pr-2 pl-2"
                         href="mailto:astrainteractivestudio@gmail.com"
                       >
                         <svg

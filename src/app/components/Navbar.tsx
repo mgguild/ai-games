@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="max-w-8xl mx-auto px-4 flex sm:justify-around justify-between items-center py-4">
         <div className="flex items-center space-x-4">
           <a href="/" className="text-white" onClick={closeNavbar}>
-            <Image src="/ais_nav_logo.png" alt="logo" width={30} height={20} />
+            <Image src="/aig_logo_small.png" alt="logo" width={45} height={30} />
           </a>
           <h1 className="hidden sm:block text-xl font-bold whitespace-nowrap text-white">ASTRA INTERACTIVE STUDIOS, INC.</h1>
         </div>

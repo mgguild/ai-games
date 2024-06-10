@@ -11,10 +11,10 @@ const Home = () => {
   >
      <div className="flex flex-col justify-center items-center min-h-screen pt-32 px-16 py-24 ">
         <Image
-          src="/logo.png"
+          src="/ais_logo_wht.png"
           alt="logo"
-          width={260}
-          height={160}
+          width={360}
+          height={260}
           objectPosition="relative"
         />
         <h1 className=" sm:text-5xl text-5xl text-white text-center font-bold title-font mt-5">
