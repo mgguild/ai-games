@@ -5,15 +5,16 @@ const Team = () => {
   return (
     <section
       id="team"
-      className=" flex flex-col  items-center justify-center bg-white w-full ">
-        <div className="flex flex-col sm:pt-20 pt-28 sm:pb-2 pb-0 text-center">
-          <h1 className="sm:text-4xl text-3xl sm:mb-7 mb-4 font-large text-violet-800 text-shadow font-bold">
+      className="flex flex-col items-center justify-center bg-white w-full"
+    >
+      <div className="flex flex-col sm:pt-20 pt-28 sm:pb-2 pb-0 text-center">
+        <h1 className="sm:text-4xl text-3xl sm:mb-7 mb-4 font-large text-violet-800 text-shadow font-bold">
           TEAM
           </h1>
         </div>
         {/* Image Grid Section 1 */}
         <div className="flex justify-center items-center">
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-3/4 w-80">
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-3/4 w-80 md:">
             <Image src="/team/ANDY.png" width={0} height={0} sizes="100vw" alt="andy" className="w-full h-auto" />
             <Image src="/team/MIKE.png" width={0} height={0} sizes="100vw" alt="salvador" className="w-full h-auto" />
             <Image src="/team/MORRIS.png" width={0} height={0} sizes="100vw" alt="rico" className="w-full h-auto" />
@@ -45,7 +46,6 @@ const Team = () => {
             <Image src="/team/GEE.png" width={0} height={0} sizes="100vw" alt="gee" className="w-full h-auto" />
           </div>
         </div>
-
     </section>
   );
 };
