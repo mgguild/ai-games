@@ -14,7 +14,7 @@ const Team = () => {
         </div>
         {/* Image Grid Section 1 */}
         <div className="flex justify-center items-center">
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-3/4 w-80 md:">
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-4/5 w-80 md:">
             <Image src="/team/ANDY.png" width={0} height={0} sizes="100vw" alt="andy" className="w-full h-auto" />
             <Image src="/team/MIKE.png" width={0} height={0} sizes="100vw" alt="salvador" className="w-full h-auto" />
             <Image src="/team/MORRIS.png" width={0} height={0} sizes="100vw" alt="rico" className="w-full h-auto" />
@@ -22,26 +22,25 @@ const Team = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mt-4">
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-3/4 w-80">
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-4/5 w-80">
             <Image src="/team/TOFF.png" width={0} height={0} sizes="100vw" alt="andy" className="w-full h-auto" />
-            <Image src="/team/JUSTIN.png" width={0} height={0} sizes="100vw" alt="rico" className="w-full h-auto" />
             <Image src="/team/KEVIN.png" width={0} height={0} sizes="100vw" alt="rico" className="w-full h-auto" />
             <Image src="/team/SALVADOR.png" width={0} height={0} sizes="100vw" alt="salvador" className="w-full h-auto" />
+            <Image src="/team/HARVIN.png" width={0} height={0} sizes="100vw" alt="harvin" className="w-full h-auto" />
           </div>
         </div>
         {/* Image Grid Section 2 */}
         <div className="flex justify-center items-center mt-4 ">
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-3/4 w-80">
-            <Image src="/team/HARVIN.png" width={0} height={0} sizes="100vw" alt="harvin" className="w-full h-auto" />
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-4/5 w-80">
             <Image src="/team/ALDRICK.png" width={0} height={0} sizes="100vw" alt="aldrick" className="w-full h-auto" />
             <Image src="/team/BALBZ.png" width={0} height={0} sizes="100vw" alt="balbz" className="w-full h-auto" />
             <Image src="/team/EMMANUEL.png" width={0} height={0} sizes="100vw" alt="emmanuel" className="w-full h-auto" />
+            <Image src="/team/ALFONSE.png" width={0} height={0} sizes="100vw" alt="alfonse" className="w-full h-auto" />
           </div>
         </div>
         {/* Image Grid Section 3 */}
         <div className="flex justify-center items-center mt-4 ">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-4 items-center sm:w-3/4 w-80">
-            <Image src="/team/ALFONSE.png" width={0} height={0} sizes="100vw" alt="alfonse" className="w-full h-auto" />
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center sm:w-4/5 w-80">
             <Image src="/team/SHANIE.png" width={0} height={0} sizes="100vw" alt="alfonse" className="w-full h-auto" />
             <Image src="/team/GEE.png" width={0} height={0} sizes="100vw" alt="gee" className="w-full h-auto" />
           </div>
