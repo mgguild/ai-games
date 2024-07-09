@@ -39,6 +39,11 @@ module.exports = {
           DEFAULT: '#232323',
         },
       },
+
+      screens: {
+        'lg': '1024px', 
+        'ipadPro': '1366px', 
+      },
      
     },
   },

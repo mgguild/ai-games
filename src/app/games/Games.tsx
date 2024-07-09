@@ -11,7 +11,7 @@ const Games = () => {
                 </div>
              
                   <div className="flex flex-wrap justify-center mt-4">
-                    <div className="relative p-4 m-2 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
+                    <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
                         <a href="https://msw.gg" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-105">  
                           <Image src="/METASAGA WARRIORS.png" alt="icon" width={460} height={240} />
@@ -23,7 +23,7 @@ const Games = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="relative p-4 m-2 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
+                    <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
                         <Image src="/ORBLITZ.png" alt="icon" width={460} height={240} />
                       </div>
@@ -33,7 +33,7 @@ const Games = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="relative p-4 m-2 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
+                    <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
                         <Image src="/HELTOONS.png" alt="icon" width={460} height={240} />
                       </div>
