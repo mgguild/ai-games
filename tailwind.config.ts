@@ -6,6 +6,7 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/@material-tailwind/react/**/*.js',
   ],
   theme: {
     extend: {
@@ -37,6 +38,11 @@ module.exports = {
         brand: {
           DEFAULT: '#232323',
         },
+      },
+
+      screens: {
+        'lg': '1024px', 
+        'ipadPro': '1366px', 
       },
      
     },
