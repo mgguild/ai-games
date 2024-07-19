@@ -31,22 +31,23 @@ const Home = () => {
 
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-50 z-[-5]" />
+      <div className="absolute inset-0 bg-black opacity-65 z-[-5]" />
 
       
       
       <div className="flex flex-col justify-center items-center min-h-screen pt-32 px-16 py-24 z-10">
         <Image
-          src="/ais_logo_wht.png"
+          src="/AIS Logo 1 Gradient.png"
           alt="logo"
-          width={360}
-          height={260}
+          width={460}
+          height={360}
           objectPosition="relative"
           className="drop-shadow-2xl" // Add more prominent shadow to the image
         />
-        <h1 className="sm:text-5xl text-5xl text-white text-center font-bold title-font mt-5 drop-shadow-2xl">
-          ASTRA INTERACTIVE STUDIOS, INC
+        <h1 className="text-5xl text-white text-center font-bold title-font mt-5 drop-shadow-2xl">
+          ASTRA INTERACTIVE STUDIOS, INC.
         </h1>
+
       </div>
 
     </section>
