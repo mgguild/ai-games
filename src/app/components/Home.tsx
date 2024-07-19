@@ -31,7 +31,7 @@ const Home = () => {
 
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-50 z-[-5]" />
+      <div className="absolute inset-0 bg-black opacity-65 z-[-5]" />
 
       
       

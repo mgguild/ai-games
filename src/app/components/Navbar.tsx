@@ -20,23 +20,23 @@ const Navbar = () => {
           <a href="/" className="text-white" onClick={closeNavbar}>
             <Image src="/android-chrome-512x512.png" alt="logo" width={45} height={30} />
           </a>
-          <h1 className="hidden ipadPro:block text-xl font-bold whitespace-nowrap text-white">ASTRA INTERACTIVE STUDIOS, INC.</h1>
+          <h1 className="hidden ipadPro:block text-xl font-bold whitespace-nowrap text-white ">ASTRA INTERACTIVE STUDIOS, INC.</h1>
         </div>
         <div className="hidden ipadPro:block">
           <div className="flex space-x-4">
-            <a href="#about_us" className="text-white font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#about_us" className="text-purple-400  font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               About
             </a>
-            <a href="#games" className="text-white font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#games" className="text-purple-400  font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               Portfolio
             </a>
-            <a href="#services" className="text-white font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#services" className="text-purple-400  font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               Services
             </a>
-            <a href="#team" className="text-white font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#team" className="text-purple-400   font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               Team
             </a>
-            <a href="#contact_us" className="text-white font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#contact_us" className="text-purple-400   font-medium focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               Contact Us
             </a>
           </div>
@@ -58,22 +58,22 @@ const Navbar = () => {
       {isClick && (
         <div className="ipadPro:hidden text-center">
           <div className="px-5 pt-5 pb-9 space-y-2">
-            <a href="/" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="/" className="text-purple-400   font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               HOME
             </a>
-            <a href="#about_us" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#about_us" className="text-purple-400   font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               ABOUT
             </a>
-            <a href="#games" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#games" className="text-purple-400  font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               PORTFOLIO
             </a>
-            <a href="#services" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#services" className="text-purple-400   font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               SERVICES
             </a> 
-            <a href="#team" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#team" className="text-purple-400   font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               TEAM
             </a>
-            <a href="#contact_us" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
+            <a href="#contact_us" className="text-purple-400   font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-violet-600" onClick={closeNavbar}>
               CONTACT US
             </a>
           </div>
