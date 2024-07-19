@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="max-w-8xl mx-auto px-6 flex justify-between items-center py-4">
         <div className="flex items-center space-x-11">
           <a href="/" className="text-white" onClick={closeNavbar}>
-            <Image src="/aig_logo_small.png" alt="logo" width={45} height={30} />
+            <Image src="/android-chrome-512x512.png" alt="logo" width={45} height={30} />
           </a>
           <h1 className="hidden ipadPro:block text-xl font-bold whitespace-nowrap text-white">ASTRA INTERACTIVE STUDIOS, INC.</h1>
         </div>

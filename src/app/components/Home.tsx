@@ -37,10 +37,10 @@ const Home = () => {
       
       <div className="flex flex-col justify-center items-center min-h-screen pt-32 px-16 py-24 z-10">
         <Image
-          src="/ais_logo_wht.png"
+          src="/AIS Logo 1 Gradient.png"
           alt="logo"
-          width={360}
-          height={260}
+          width={460}
+          height={360}
           objectPosition="relative"
           className="drop-shadow-2xl" // Add more prominent shadow to the image
         />
