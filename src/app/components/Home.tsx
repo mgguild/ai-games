@@ -44,11 +44,8 @@ const Home = () => {
           objectPosition="relative"
           className="drop-shadow-2xl" // Add more prominent shadow to the image
         />
-        <h1 className="hidden sm:block text-5xl text-white text-center font-bold title-font mt-5 drop-shadow-2xl">
-          ASTRA INTERACTIVE STUDIOS, INC
-        </h1>
-        <h1 className="block lg:hidden text-5xl text-white text-center font-bold title-font mt-5 drop-shadow-2xl">
-          ASTRA INTERACTIVE STUDIOS INC
+        <h1 className="text-5xl text-white text-center font-bold title-font mt-5 drop-shadow-2xl">
+          ASTRA INTERACTIVE STUDIOS, INC.
         </h1>
 
       </div>
