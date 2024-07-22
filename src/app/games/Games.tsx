@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image"
+import { Carousel } from '@material-tailwind/react';
 
 const Games = () => {
   return (
@@ -9,7 +10,6 @@ const Games = () => {
                 <div className="flex flex-col text-center w-full mb-15 lg:pb-0 md:pb-32">
                     <h1 className="sm:text-4xl text-3xl  mb-6 font-bold text-white">GAMES PORTFOLIO</h1>
                 </div>
-             
                   <div className="flex flex-wrap justify-center mt-4">
                     <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
@@ -44,6 +44,7 @@ const Games = () => {
                       </div>
                     </div>
                   </div>
+                  
             </div>
           </section>
   )

@@ -1,14 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/ai-games",
-  output: "export",
-  reactStrictMode: true
-}
-
-module.exports = nextConfig
-
-module.exports = {
   images: {
-    domains: ['astrainteractive.studio'],
+      domains: ['astrainteractive.studio'],
   },
-}
+};
+
+module.exports = nextConfig;
