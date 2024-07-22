@@ -85,7 +85,7 @@ const Services = () => {
                             </p>
                           </div>
                         </div>
-                        <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '480px', width: '100%', maxWidth: '340px' }}>
+                        <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '520px', width: '100%', maxWidth: '340px' }}>
                           <div className="mb-4 mt-4">
                             <Image src="/web3 icon.png" alt="icon" width={140} height={140} />
                           </div>
