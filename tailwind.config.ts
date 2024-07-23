@@ -44,6 +44,11 @@ module.exports = {
         'lg': '1024px', 
         'ipadPro': '1366px', 
       },
+
+      fontSize: {
+        'xxs': '0.55rem',
+        'xxxl': '2.5rem',
+      },
      
     },
   },

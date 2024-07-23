@@ -10,18 +10,19 @@ const Footer = () => {
       <div className="container pt-14 pb-10 mx-auto ">
           <div className="flex flex-wrap items-center justify-center text-center "> 
             <div className="md:w-96 w-full px-4">
-              <a href="/" className="flex justify-center w-full  md:w-auto mb-5"> 
+              <a href="/" className="flex justify-center w-full  md:w-auto "> 
                 <Image
-                  src="/android-chrome-512x512.png"
+                  src="/android-chrome-small.png"
                   alt="logo"
-                  width={100}
-                  height={100}
+                  width={150}
+                  height={150}
                 />
               </a>
+              <p className="mb-5 text-white text-xxs">ASTRA INTERACTIVE STUDIOS, INC.</p>
               <div className="flex justify-center lg:ml-auto lg:mt-0 mt-6 w-full mb-5 md:w-auto">
                   
                       <a
-                        className=" text-purple-800 pr-2 pl-2"
+                        className=" text-purple-800 pr-2 pl-2 hover:text-white"
                         href="https://www.facebook.com/astraistudios"
                         target="_blank"
                       >
@@ -39,7 +40,7 @@ const Footer = () => {
                     
                   
                       <a
-                        className=" text-purple-800 pr-2 pl-2"
+                        className=" text-purple-800 pr-2 pl-2 hover:text-white"
                         href="https://twitter.com/astraistudios"
                         target="_blank"
                       >
@@ -56,7 +57,7 @@ const Footer = () => {
                       </a>
                 
                       <a
-                        className=" text-purple-800 pr-4"
+                        className=" text-purple-800 pr-4 hover:text-white"
                         href="https://medium.com/@astraistudios"
                         target="_blank"
                       >
@@ -66,7 +67,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-purple-800 pr-2 pl-2"
+                        className=" text-purple-800 pr-2 pl-2 hover:text-white"
                         href="https://www.youtube.com/@astraistudios"
                         target="_blank"
                       >
@@ -83,7 +84,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-purple-800 pr-2 pl-2"
+                        className=" text-purple-800 pr-2 pl-2 hover:text-white"
                         href="https://www.reddit.com/r/astraistudios/"
                         target="_blank"
                       >
@@ -94,7 +95,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-purple-800  pr-2 pl-2"
+                        className=" text-purple-800  pr-2 pl-2 hover:text-white"
                         href="mailto:astrainteractivestudio@gmail.com"
                       >
                         <svg
@@ -122,13 +123,13 @@ const Footer = () => {
               <div className="flex space-x-4 ">
                 <a
                   href="privacy-policy" target="_blank"
-                  className="text-base text-white"
+                  className="text-base text-white hover:text-purple-600"
                 >
                   Privacy Policy
                 </a>
                 <a
                   href="terms-and-conditions" target="_blank"
-                  className="text-base text-white"
+                  className="text-base text-white hover:text-purple-600"
                 >
                   Terms and Conditions
                 </a>
