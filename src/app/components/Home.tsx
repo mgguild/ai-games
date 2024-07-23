@@ -31,13 +31,13 @@ const Home = () => {
 
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-65 z-[-5]" />
+      <div className="absolute inset-0 bg-black opacity-70 z-[-5]" />
 
       
       
       <div className="flex flex-col justify-center items-center min-h-screen pt-32 px-16 py-24 z-10">
         <Image
-          src="/AIS Logo 1 Gradient.png"
+          src="/AIS Logo Gradient 768x768.png"
           alt="logo"
           width={460}
           height={360}
