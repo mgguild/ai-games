@@ -1,3 +1,4 @@
+import Aboutpage from "./Aboutpage";
 import Helltoons from "./Homepage";
 
 export default function Hero(){
@@ -6,7 +7,9 @@ export default function Hero(){
         <div id="landingpage">
             <Helltoons />
         </div>
-     
+        <div id="aboutpage">
+            <Aboutpage />
+        </div>
         </>
     )
 }
