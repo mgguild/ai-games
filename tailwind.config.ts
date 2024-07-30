@@ -49,6 +49,11 @@ module.exports = {
         'xxs': '0.55rem',
         'xxxl': '2.5rem',
       },
+
+      dropShadow: {
+        'white': '0 4px 6px rgba(255, 255, 255, 0.5)',
+        'custom-black': '0 5px 6px rgba(0, 0, 0, 0.5)',
+      }
      
     },
   },
