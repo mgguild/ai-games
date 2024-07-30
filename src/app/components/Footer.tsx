@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="md:w-96 w-full px-4">
               <a href="/" className="flex justify-center w-full  md:w-auto "> 
                 <Image
-                  src="/android-chrome-small.png"
+                  src="/android-chrome-512x512.png"
                   alt="logo"
                   width={150}
                   height={150}
@@ -22,7 +22,7 @@ const Footer = () => {
               <div className="flex justify-center lg:ml-auto lg:mt-0 mt-6 w-full mb-5 md:w-auto">
                   
                       <a
-                        className=" text-purple-800 pr-2 pl-2 hover:text-white"
+                        className=" text-purple-400 pr-2 pl-2 hover:text-white"
                         href="https://www.facebook.com/astraistudios"
                         target="_blank"
                       >
@@ -40,7 +40,7 @@ const Footer = () => {
                     
                   
                       <a
-                        className=" text-purple-800 pr-2 pl-2 hover:text-white"
+                        className=" text-purple-400 pr-2 pl-2 hover:text-white"
                         href="https://twitter.com/astraistudios"
                         target="_blank"
                       >
@@ -57,7 +57,7 @@ const Footer = () => {
                       </a>
                 
                       <a
-                        className=" text-purple-800 pr-4 hover:text-white"
+                        className=" text-purple-400 pr-4 hover:text-white"
                         href="https://medium.com/@astraistudios"
                         target="_blank"
                       >
@@ -67,7 +67,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-purple-800 pr-2 pl-2 hover:text-white"
+                        className=" text-purple-400 pr-2 pl-2 hover:text-white"
                         href="https://www.youtube.com/@astraistudios"
                         target="_blank"
                       >
@@ -84,7 +84,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-purple-800 pr-2 pl-2 hover:text-white"
+                        className=" text-purple-400 pr-2 pl-2 hover:text-white"
                         href="https://www.reddit.com/r/astraistudios/"
                         target="_blank"
                       >
@@ -95,7 +95,7 @@ const Footer = () => {
                       </a>
                   
                       <a
-                        className=" text-purple-800  pr-2 pl-2 hover:text-white"
+                        className=" text-purple-400  pr-2 pl-2 hover:text-white"
                         href="mailto:astrainteractivestudio@gmail.com"
                       >
                         <svg
