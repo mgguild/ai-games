@@ -1,34 +1,54 @@
 import React from 'react';
-
+import Image
+ from 'next/image';
 const Newsletter = () => {
   return (
     <div id="newsletter"
     className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center w-full"
     style={{ backgroundImage: "url('/helltoons/BG Checkered.png')" }}>
-
-      <div className="bg-transparent p-6 max-w-md w-full">
+      
+    <div className="grid grid-cols-2 gap-0 items-center">
+      <div className="bg-transparent p-6 max-w-md w-full mx-auto text-center">
         <h2 className="text-2xl font-bold mb-4 text-white">Join the Newsletter</h2>
-        <p className="w-full leading-loose text-based font-medium text-white">
-        Find out what your favorite helltoon denizen is up to, from enemies to their favorite attack combo.
-      </p>
+        <p className="w-full leading-loose mb-4 text-based font-medium text-white">
+          Find out what your favorite helltoon denizen is up to, from enemies to their favorite attack combo.
+        </p>
         <form>
           <div className="mb-4">
             <input
               type="email"
               id="email"
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="mt-1 block w-full px-3 py-2 border border-gray-800 rounded-md shadow-sm focus:outline-none focus:ring-gray-500 focus:gray-indigo-500 sm:text-sm bg-gray-800 text-white"
               placeholder="you@example.com"
             />
           </div>
-     
           <button
             type="submit"
-            className="w-full bg-transparent text-white py-2 px-4 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="w-full bg-transparent text-white py-2 px-4 border border-white rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Subscribe
           </button>
         </form>
       </div>
+
+      <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <Image
+          src="/helltoons/newsletter2.png"
+          alt="logo"
+          width={500}
+          height={400}
+          className="mx-auto"
+        />
+        <Image
+          src="/helltoons/newsletter1.png"
+          alt="logo"
+          width={500}
+          height={400}
+          className="mx-auto"
+        />
+      </div>
+    </div>
+
     </div>
   );
 };
