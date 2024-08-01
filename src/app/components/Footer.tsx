@@ -10,15 +10,15 @@ const Footer = () => {
       <div className="container pt-14 pb-10 mx-auto ">
           <div className="flex flex-wrap items-center justify-center text-center "> 
             <div className="md:w-96 w-full px-4">
-              <a href="/" className="flex justify-center w-full  md:w-auto "> 
+              <a href="/" className="flex justify-center w-full md:w-auto pb-5"> 
                 <Image
-                  src="/android-chrome-512x512.png"
+                  src="/new logo.png"
                   alt="logo"
                   width={150}
                   height={150}
                 />
               </a>
-              <p className="mb-5 text-white text-xxs">ASTRA INTERACTIVE STUDIOS, INC.</p>
+              {/* <p className="mb-5 text-white text-xxs">ASTRA INTERACTIVE STUDIOS, INC.</p> */}
               <div className="flex justify-center lg:ml-auto lg:mt-0 mt-6 w-full mb-5 md:w-auto">
                   
                       <a
