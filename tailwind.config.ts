@@ -43,11 +43,18 @@ module.exports = {
       screens: {
         'lg': '1024px', 
         'ipadPro': '1366px', 
+        'desktop': '1920px',
       },
 
       fontSize: {
         'xxs': '0.55rem',
         'xxxl': '2.5rem',
+      },
+
+      width: {
+        'custom-size': '32rem',   // Example custom width size
+        'custom-50': '50%',       // 50% width
+        'custom-70': '68%',      // 75% width
       },
 
       dropShadow: {
