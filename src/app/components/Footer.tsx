@@ -7,14 +7,14 @@ const Footer = () => {
       <footer id="footer">
        
       <div className="bg-brand">
-      <div className="container pt-14 pb-10 mx-auto ">
+      <div className="container pb-10 mx-auto ">
           <div className="flex flex-wrap items-center justify-center text-center "> 
             <div className="md:w-96 w-full px-4">
               <a href="/" className="flex justify-center w-full md:w-auto pb-5"> 
                 <Image
                   src="/new logo.png"
                   alt="logo"
-                  width={250}
+                  width={280}
                   height={250}
                 />
               </a>
