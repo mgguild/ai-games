@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-brand fixed w-full z-20 top-0 md:w-full ipadPro:w-custom-70 ipadPro:left-60 desktop:w-3/4">
+    <nav className="bg-brand fixed w-full z-20 top-0 md:w-full ipadPro:w-full ipadPro:left-0 desktop:w-full">
       <div className="max-w-8xl mx-auto px-6 flex justify-between items-center py-4">
         <div className="flex items-center space-x-6">
           <a href="/" className="text-white" onClick={closeNavbar}>
