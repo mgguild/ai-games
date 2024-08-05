@@ -16,6 +16,7 @@ const Footer = () => {
                   alt="logo"
                   width={150}
                   height={150}
+                  unoptimized
                 />
               </a>
               {/* <p className="mb-5 text-white text-xxs">ASTRA INTERACTIVE STUDIOS, INC.</p> */}

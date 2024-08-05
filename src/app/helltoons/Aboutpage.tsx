@@ -50,7 +50,7 @@ const Aboutpage = () => {
       <div className="flex flex-row justify-center mt-4">
         <div className="relative p-1 m-1 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '540px' }}>
           <div className="relative z-15 flex justify-center mb-4">
-            <Image src="/helltoons/scoop.png" alt="icon" width={460} height={240} className="rounded-3xl" />
+            <Image src="/helltoons/scoop.png" alt="icon" width={460} height={240} className="rounded-3xl" unoptimized />
           </div>
           <div className="container flex items-center justify-center text-center">
             <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-lg md:text-xs text-lg font-medium text-gray-600">
@@ -60,7 +60,7 @@ const Aboutpage = () => {
         </div>
         <div className="relative p-1 m-1 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '540px' }}>
           <div className="relative z-15 flex justify-center mb-4">
-            <Image src="/helltoons/rumble.png" alt="icon" width={460} height={240} className="rounded-3xl" />
+            <Image src="/helltoons/rumble.png" alt="icon" width={460} height={240} className="rounded-3xl" unoptimized />
           </div>
           <div className="container flex items-center justify-center text-center">
             <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-lg md:text-xs text-lg font-medium text-gray-600">
@@ -70,7 +70,7 @@ const Aboutpage = () => {
         </div>
         <div className="relative p-1 m-1 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '540px' }}>
           <div className="relative z-15 flex justify-center mb-4">
-            <Image src="/helltoons/cookup.png" alt="icon" width={460} height={240} className="rounded-3xl" />
+            <Image src="/helltoons/cookup.png" alt="icon" width={460} height={240} className="rounded-3xl" unoptimized />
           </div>
           <div className="container flex items-center justify-center text-center">
             <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-lg md:text-xs text-lg font-medium text-gray-600">

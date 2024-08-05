@@ -53,7 +53,7 @@ const PreviewCards= () => {
 
             <div className="relative p-0 flex flex-row items-center justify-center mx-auto gap-4" style={{ height: '460px', width: '100%', maxWidth: '740px' }}>
               <div className="relative z-15 flex justify-center mb-4">
-                  <Image src="/helltoons/Advance Strategy.png" alt="icon" width={460} height={240} />
+                  <Image src="/helltoons/Advance Strategy.png" alt="icon" width={460} height={240} unoptimized />
               </div>
               <div className="container flex items-center justify-end text-center">
                 <div className="flex flex-col items-start">
@@ -68,7 +68,7 @@ const PreviewCards= () => {
             
             <div className="relative p-0 flex flex-row items-center justify-center mx-auto gap-4" style={{ height: '460px', width: '100%', maxWidth: '740px' }}>
               <div className="relative z-15 flex justify-center mb-4">
-                  <Image src="/helltoons/PS Attack.png" alt="icon" width={460} height={240} />
+                  <Image src="/helltoons/PS Attack.png" alt="icon" width={460} height={240} unoptimized />
               </div>
               <div className="container flex items-center justify-end text-center">
                 <div className="flex flex-col items-start">
@@ -82,7 +82,7 @@ const PreviewCards= () => {
              
             <div className="relative p-0 flex flex-row items-center justify-center mx-auto gap-4" style={{ height: '460px', width: '100%', maxWidth: '740px' }}>
               <div className="relative z-15 flex justify-center mb-4">
-                  <Image src="/helltoons/Defense Formation.png" alt="icon" width={460} height={240} />
+                  <Image src="/helltoons/Defense Formation.png" alt="icon" width={460} height={240} unoptimized />
               </div>
               <div className="container flex items-center justify-end text-center">
                 <div className="flex flex-col items-start">
@@ -97,7 +97,7 @@ const PreviewCards= () => {
 
             <div className="relative p-0 flex flex-row items-center justify-center mx-auto gap-4" style={{ height: '460px', width: '100%', maxWidth: '740px' }}>
               <div className="relative z-15 flex justify-center mb-4">
-                  <Image src="/helltoons/Burning Vestal.png" alt="icon" width={460} height={240} />
+                  <Image src="/helltoons/Burning Vestal.png" alt="icon" width={460} height={240} unoptimized />
               </div>
               <div className="container flex items-center justify-end text-center">
                 <div className="flex flex-col items-start">

@@ -38,7 +38,7 @@ const Games = () => {
                     <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
                         <a href="https://msw.gg" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-105">  
-                          <Image src="/METASAGA WARRIORS.png" alt="icon" width={460} height={240} />
+                          <Image src="/METASAGA WARRIORS.png" alt="icon" width={460} height={240} unoptimized />
                         </a>
                       </div>
                       <div className="container flex items-center justify-center text-center">
@@ -49,7 +49,7 @@ const Games = () => {
                     </div>
                     <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
-                        <Image src="/ORBLITZ.png" alt="icon" width={460} height={240} />
+                        <Image src="/ORBLITZ.png" alt="icon" width={460} height={240} unoptimized />
                       </div>
                       <div className="container flex items-center justify-center text-center">
                         <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-sm md:text-xs text-base font-medium text-white">
@@ -59,7 +59,7 @@ const Games = () => {
                     </div>
                     <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
-                        <Image src="/HELTOONS.png" alt="icon" width={460} height={240} />
+                        <Image src="/HELTOONS.png" alt="icon" width={460} height={240} unoptimized />
                       </div>
                       <div className="container flex items-center justify-center text-center">
                         <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-sm md:text-xs text-base font-medium text-white">
@@ -82,10 +82,10 @@ const Games = () => {
                 <div className="relative z-15 flex justify-center mb-4">
                   {slide.link ? (
                     <a href={slide.link} target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-105">
-                      <Image src={slide.image} alt="icon" width={460} height={240} className="mx-auto" />
+                      <Image src={slide.image} alt="icon" width={460} height={240} className="mx-auto" unoptimized />
                     </a>
                   ) : (
-                    <Image src={slide.image} alt="icon" width={460} height={240} className="mx-auto" />
+                    <Image src={slide.image} alt="icon" width={460} height={240} className="mx-auto" unoptimized />
                   )}
                 </div>
                 <div className="flex items-center justify-center text-center">

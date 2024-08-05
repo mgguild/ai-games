@@ -20,6 +20,7 @@ const Download= () => {
                   width={320}
                   height={200}
                   className="shadow-lg"
+                  unoptimized
                 />
                 <p className="w-full leading-loose text-based font-medium text-black">
                 Download Now
@@ -32,6 +33,7 @@ const Download= () => {
                   width={320}
                   height={200}
                   className="shadow-lg"
+                  unoptimized
                 />
                 <p className="w-full leading-loose text-based font-medium text-black">
                 Coming Soon
@@ -46,6 +48,7 @@ const Download= () => {
                 alt="logo"
                 width={500}
                 height={400}
+                unoptimized
                 />
             </div>
         </div>

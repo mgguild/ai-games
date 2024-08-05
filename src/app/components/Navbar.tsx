@@ -15,12 +15,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-brand fixed w-full z-20 top-0 md:w-full ipadPro:w-custom-70 ipadPro:left-60 desktop:w-3/4">
-      <div className="max-w-8xl mx-auto px-6 flex justify-between items-center py-4">
+    <nav className="bg-brand fixed w-full z-20 top-0">
+      <div className="container mx-auto px-6 flex justify-between items-center py-4">
         <div className="flex items-center space-x-6">
-          <a href="/" className="text-white" onClick={closeNavbar}>
-            <Image src="/android-chrome-512x512.png" alt="logo" width={45} height={30} />
-          </a>
+          <Link href="/" className="text-white" onClick={closeNavbar}>
+            <Image src="/android-chrome-512x512.png" alt="logo" width={45} height={30} unoptimized />
+          </Link>
           <h1 className="hidden ipadPro:block text-xl font-bold whitespace-nowrap text-white ">ASTRA INTERACTIVE STUDIOS, INC.</h1>
         </div>
         <div className="hidden ipadPro:block">

@@ -56,6 +56,7 @@ const ContactUs = () => {
               alt="logo"
               width={500}
               height={400}
+              unoptimized
             />
           </div>
 

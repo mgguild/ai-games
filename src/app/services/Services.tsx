@@ -15,7 +15,7 @@ const Services = () => {
                   <div className="flex justify-between gap-6">
                     <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '340px' }}>
                       <div className="mb-4 mt-4">
-                        <Image src="/game development icon.png" alt="icon" width={150} height={140} />
+                        <Image src="/game development icon.png" alt="icon" width={150} height={140} unoptimized />
                       </div>
                       <div className="text-center">
                         <h1 className="text-xl lg:text-xl md:text-lg font-bold text-violet-700 mb-4">Game Development</h1>
@@ -26,7 +26,7 @@ const Services = () => {
                     </div>
                     <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '340px' }}>
                       <div className="mb-4 mt-4">
-                        <Image src="/web3 icon.png" alt="icon" width={140} height={140} />
+                        <Image src="/web3 icon.png" alt="icon" width={140} height={140} unoptimized />
                       </div>
                       <div className="text-center">
                         <h1 className="text-xl lg:text-xl md:text-lg font-bold text-violet-700 mb-4">Web3 Integration</h1>
@@ -42,7 +42,7 @@ const Services = () => {
                   <div className="flex justify-between gap-6">
                     <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '340px' }}>
                       <div className="mb-4 mt-4">
-                        <Image src="/custom solutions icon.png" alt="icon" width={150} height={140} />
+                        <Image src="/custom solutions icon.png" alt="icon" width={150} height={140} unoptimized />
                       </div>
                       <div className="text-center">
                         <h1 className="text-xl lg:text-xl md:text-lg font-bold text-violet-700 mb-4">Custom Solutions</h1>
@@ -55,7 +55,7 @@ const Services = () => {
                     </div>
                     <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '340px' }}>
                       <div className="mb-4 mt-4">
-                        <Image src="/consultation icon.png" alt="icon" width={179} height={160} />
+                        <Image src="/consultation icon.png" alt="icon" width={179} height={160} unoptimized />
                       </div>
                       <div className="text-center">
                         <h1 className="text-xl lg:text-xl md:text-lg font-bold text-violet-700 mb-4">Consultation</h1>
@@ -76,7 +76,7 @@ const Services = () => {
                       <div className="flex flex-col justify-between gap-6">
                         <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                           <div className="mb-4 mt-4">
-                            <Image src="/game development icon.png" alt="icon" width={150} height={140} />
+                            <Image src="/game development icon.png" alt="icon" width={150} height={140} unoptimized />
                           </div>
                           <div className="text-center">
                             <h1 className="text-xl font-bold text-violet-700 mb-4">Game Development</h1>
@@ -87,7 +87,7 @@ const Services = () => {
                         </div>
                         <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '520px', width: '100%', maxWidth: '340px' }}>
                           <div className="mb-4 mt-4">
-                            <Image src="/web3 icon.png" alt="icon" width={140} height={140} />
+                            <Image src="/web3 icon.png" alt="icon" width={140} height={140} unoptimized />
                           </div>
                           <div className="text-center">
                             <h1 className="text-xl font-bold text-violet-700 mb-4">Web3 Integration</h1>
@@ -102,7 +102,7 @@ const Services = () => {
                       <div className="flex flex-col justify-between gap-6">
                         <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '540px', width: '100%', maxWidth: '340px' }}>
                           <div className="mb-4 mt-4">
-                            <Image src="/custom solutions icon.png" alt="icon" width={150} height={140} />
+                            <Image src="/custom solutions icon.png" alt="icon" width={150} height={140} unoptimized />
                           </div>
                           <div className="text-center">
                             <h1 className="text-xl font-bold text-violet-700 mb-4">Custom Solutions</h1>
@@ -113,7 +113,7 @@ const Services = () => {
                         </div>
                         <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '540px', width: '100%', maxWidth: '340px' }}>
                           <div className="mb-4 mt-4">
-                            <Image src="/consultation icon.png" alt="icon" width={179} height={160} />
+                            <Image src="/consultation icon.png" alt="icon" width={179} height={160} unoptimized />
                           </div>
                           <div className="text-center">
                             <h1 className="text-xl font-bold text-violet-700 mb-4">Consultation</h1>

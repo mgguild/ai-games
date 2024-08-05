@@ -38,6 +38,7 @@ const Newsletter = () => {
           width={500}
           height={400}
           className="mx-auto"
+          unoptimized
         />
         <Image
           src="/helltoons/newsletter1.png"
@@ -45,6 +46,7 @@ const Newsletter = () => {
           width={500}
           height={400}
           className="mx-auto"
+          unoptimized
         />
       </div>
     </div>
