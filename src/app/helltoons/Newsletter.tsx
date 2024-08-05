@@ -1,6 +1,9 @@
 import React from 'react';
-import Image
- from 'next/image';
+import Image from 'next/image';
+import MailchimpSubscribe, { EmailFormFields } from 'react-mailchimp-subscribe';
+
+const MAILCHIMP_URL = process.env.NEXT_PUBLIC_MAILCHIMP_URL;
+
 const Newsletter = () => {
   return (
     <div id="newsletter"
@@ -13,6 +16,23 @@ const Newsletter = () => {
         <p className="w-full leading-loose mb-4 text-based font-medium text-white">
           Find out what your favorite helltoon denizen is up to, from enemies to their favorite attack combo.
         </p>
+        {/* <MailchimpSubscribe
+          url={MAILCHIMP_URL}
+          render={({ subscribe, status, message }) => (
+            <div>
+              <form onSubmit={(formData: EmailFormFields) => subscribe(formData)} />
+              {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+              {status === "error" && (
+                <div 
+                  style={{ color: "red" }} 
+                  dangerouslySetInnerHTML={{ __html: message ?? '' }} // Fallback to an empty string if message is undefined
+                />
+              )}
+              {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
+            </div>
+          )}
+        /> */}
+
         <form>
           <div className="mb-4">
             <input
