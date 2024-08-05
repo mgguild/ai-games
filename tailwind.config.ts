@@ -52,9 +52,9 @@ module.exports = {
       },
 
       width: {
-        'custom-size': '32rem',   // Example custom width size
-        'custom-50': '50%',       // 50% width
-        'custom-70': '68%',      // 75% width
+        'custom-size': '32rem',   
+        'custom-50': '50%',      
+        'custom-70': '68%',      
       },
 
       dropShadow: {
