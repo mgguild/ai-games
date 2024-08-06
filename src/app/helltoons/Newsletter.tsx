@@ -1,74 +1,106 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import Image from 'next/image';
-import MailchimpSubscribe, { EmailFormFields } from 'react-mailchimp-subscribe';
 
 const MAILCHIMP_URL = process.env.NEXT_PUBLIC_MAILCHIMP_URL;
 
-const Newsletter = () => {
-  return (
-    <div id="newsletter"
-    className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center w-full"
-    style={{ backgroundImage: "url('/helltoons/BG Checkered.png')" }}>
-      
-    <div className="grid grid-cols-2 gap-0 items-center">
-      <div className="bg-transparent p-6 max-w-md w-full mx-auto text-center">
-        <h2 className="text-2xl font-bold mb-4 text-white">Join the Newsletter</h2>
-        <p className="w-full leading-loose mb-4 text-based font-medium text-white">
-          Find out what your favorite helltoon denizen is up to, from enemies to their favorite attack combo.
-        </p>
-        {/* <MailchimpSubscribe
-          url={MAILCHIMP_URL}
-          render={({ subscribe, status, message }) => (
-            <div>
-              <form onSubmit={(formData: EmailFormFields) => subscribe(formData)} />
-              {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-              {status === "error" && (
-                <div 
-                  style={{ color: "red" }} 
-                  dangerouslySetInnerHTML={{ __html: message ?? '' }} // Fallback to an empty string if message is undefined
-                />
-              )}
-              {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
-            </div>
-          )}
-        /> */}
+const Newsletter: React.FC = () => {
+  const [email, setEmail] = useState('');
+  const [status, setStatus] = useState('');
 
-        <form>
-          <div className="mb-4">
-            <input
-              type="email"
-              id="email"
-              className="mt-1 block w-full px-3 py-2 border border-gray-800 rounded-md shadow-sm focus:outline-none focus:ring-gray-500 focus:gray-indigo-500 sm:text-sm bg-gray-800 text-white"
-              placeholder="you@example.com"
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    if (!MAILCHIMP_URL) {
+      setStatus('Mailchimp URL is not defined.');
+      return;
+    }
+
+    setStatus('Loading...');
+
+    try {
+      const response = await fetch(MAILCHIMP_URL, {
+        method: 'POST',
+        body: JSON.stringify({ EMAIL: email }),
+        headers: { 'Content-Type': 'application/json' },
+      });
+
+      if (response.ok) {
+        setStatus('Thank you for subscribing!');
+      } else {
+        setStatus('Subscription failed. Please try again.');
+      }
+    } catch (error) {
+      setStatus('An error occurred. Please try again.');
+    }
+  };
+
+  return (
+    <div
+      id="newsletter"
+      className=" pt-28 flex flex-col items-center justify-center bg-cover bg-center w-full py-0"
+      style={{ backgroundImage: "url('/helltoons/BG Checkered.png')" }}
+    >
+      <div className="max-w-7xl w-full mx-auto lg:pr-52 items-center">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8 ">
+          <div className="bg-transparent pt-16 text-center lg:text-left">
+            <h2 className="text-3xl font-bold mb-4 text-white">Join the Newsletter</h2>
+            <p className="text-lg font-medium text-white mb-6">
+            Find out what your favorite helltoon denizen is up to, from enemies to their favorite attack combo.
+            </p>
+            <form
+              action="https://studio.us17.list-manage.com/subscribe/post?u=df445e28f9232d48b7abe3e1d&amp;id=da80051864&amp;f_id=0095c2e1f0"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              className="flex flex-col space-y-4"
+              target="_blank"
+            >
+              <div className="mb-4">
+                <label htmlFor="mce-EMAIL" className="block text-white mb-2">
+                  Email Address <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  name="EMAIL"
+                  className="p-3 rounded-md border border-gray-800 bg-gray-800 w-full"
+                  id="mce-EMAIL"
+                  required
+                  placeholder="Your Email Address"
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <button
+                type="submit"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                className="bg-transparent text-white py-2 px-4 rounded-md border border-white hover:bg-gray-600"
+              >
+                Subscribe
+              </button>
+
+              {status && <p className="mt-4 text-white">{status}</p>}
+            </form>
+          </div>
+
+          <div className="flex flex-col lg:flex-row items-end">
+            <Image
+              src="/helltoons/newsletter2.png"
+              alt="Newsletter Graphic 1"
+              width={500}
+              height={400}
+              className="w-full h-auto "
+            />
+            <Image
+              src="/helltoons/newsletter1.png"
+              alt="Newsletter Graphic 2"
+              width={500}
+              height={400}
+              className="w-full h-auto"
             />
           </div>
-          <button
-            type="submit"
-            className="w-full bg-transparent text-white py-2 px-4 border border-white rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          >
-            Subscribe
-          </button>
-        </form>
+        </div>
       </div>
-
-      <div className="grid grid-cols-2 gap-4 justify-center items-center">
-        <Image
-          src="/helltoons/newsletter2.png"
-          alt="logo"
-          width={500}
-          height={400}
-          className="mx-auto"
-        />
-        <Image
-          src="/helltoons/newsletter1.png"
-          alt="logo"
-          width={500}
-          height={400}
-          className="mx-auto"
-        />
-      </div>
-    </div>
-
     </div>
   );
 };

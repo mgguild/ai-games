@@ -44,7 +44,7 @@ const Download= () => {
               <p className="w-full leading-loose text-base font-medium text-black pb-4">
                 Download our Press Kit Here!
               </p>
-              <a href="https://drive.google.com/file/d/1YE29Gd1_wSm4DdCTfbfJ147wlo8qlbzT/view?usp=sharing" target="_blank" className="w-1/2 bg-transparent text-black py-2 px-16 border border-black rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              <a href="https://drive.google.com/file/d/1YE29Gd1_wSm4DdCTfbfJ147wlo8qlbzT/view?usp=sharing" target="_blank" className="w-1/2 bg-transparent text-black py-2 px-16 border border-black rounded-md shadow-sm hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Download
               </a>
             </div>
