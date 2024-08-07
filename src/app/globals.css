@@ -25,3 +25,19 @@
     background: #efefef;
     text-align: center;
   }
+
+  @keyframes slideFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-slideFadeIn {
+    animation: slideFadeIn 2s ease-in forwards;
+  }
+  

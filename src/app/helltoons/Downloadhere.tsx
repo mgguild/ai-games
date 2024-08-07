@@ -14,15 +14,20 @@ const Download= () => {
           <h1 className="text-3xl font-bold mb-4 text-purple-900">Play Helltoons Card Clash</h1>
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <a href="https://play.google.com/store/apps/details?id=com.helltoons&hl=en" target="_blank" rel="noopener noreferrer" className="transition-transform transform-gpu hover:scale-105">
+            <a
+                href="https://play.google.com/store/apps/details?id=com.helltoons&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src="/helltoons/google play.png"
                   alt="logo"
                   width={320}
                   height={200}
-                  className="shadow-lg"
+                  className="transition-transform transform-gpu hover:scale-105 shadow-lg"
                 />
               </a>
+
               <p className="w-full leading-loose text-base font-medium text-black">
                 Download Now
               </p>
@@ -44,7 +49,7 @@ const Download= () => {
               <p className="w-full leading-loose text-base font-medium text-black pb-4">
                 Download our Press Kit Here!
               </p>
-              <a href="https://drive.google.com/file/d/1YE29Gd1_wSm4DdCTfbfJ147wlo8qlbzT/view?usp=sharing" target="_blank" className="w-1/2 bg-transparent text-black py-2 px-16 border border-black rounded-md shadow-sm hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              <a href="https://drive.google.com/file/d/1YE29Gd1_wSm4DdCTfbfJ147wlo8qlbzT/view?usp=sharing" target="_blank" className="w-1/2 bg-transparent text-black py-2 px-16 border border-black rounded-md hover:bg-yellow-400 transition-transform transform-gpu hover:scale-105 shadow-lg">
                 Download
               </a>
             </div>

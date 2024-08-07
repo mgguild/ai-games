@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState } from 'react';
 import Image from 'next/image';
 
@@ -42,7 +41,7 @@ const Newsletter: React.FC = () => {
       style={{ backgroundImage: "url('/helltoons/BG Checkered.png')" }}
     >
       <div className="max-w-7xl w-full mx-auto lg:pr-52 items-center">
-        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8 ">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-7 ">
           <div className="bg-transparent pt-16 text-center lg:text-left">
             <h2 className="text-3xl font-bold mb-4 text-white">Join the Newsletter</h2>
             <p className="text-lg font-medium text-white mb-6">
@@ -57,9 +56,6 @@ const Newsletter: React.FC = () => {
               target="_blank"
             >
               <div className="mb-4">
-                <label htmlFor="mce-EMAIL" className="block text-white mb-2">
-                  Email Address <span className="text-red-500">*</span>
-                </label>
                 <input
                   type="email"
                   name="EMAIL"
@@ -74,7 +70,7 @@ const Newsletter: React.FC = () => {
                 type="submit"
                 name="subscribe"
                 id="mc-embedded-subscribe"
-                className="bg-transparent text-white py-2 px-4 rounded-md border border-white hover:bg-gray-600"
+                className="bg-transparent text-white py-2 px-4 rounded-md border border-white hover:bg-gray-600 shadow-lg" 
               >
                 Subscribe
               </button>
@@ -87,16 +83,16 @@ const Newsletter: React.FC = () => {
             <Image
               src="/helltoons/newsletter2.png"
               alt="Newsletter Graphic 1"
-              width={500}
+              width={600}
               height={400}
-              className="w-full h-auto "
+              className="w-full h-auto pl-9"
             />
             <Image
               src="/helltoons/newsletter1.png"
               alt="Newsletter Graphic 2"
-              width={500}
+              width={600}
               height={400}
-              className="w-full h-auto"
+              className="w-full h-auto pl-11"
             />
           </div>
         </div>
