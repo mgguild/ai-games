@@ -1,18 +1,22 @@
 import React from "react";
 
-const Helltoons= () => {
+const Helltoons = () => {
   return (
-    
     <section
       id="landingpage"
-      className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center w-full"
-      style={{ backgroundImage: "url('/helltoons/autobattler launch4.png')" }}>
-        
-        <div className=" ">
-        <div className="container mx-auto px-4 py-8">
-            {/* <h1 className="text-3xl font-bold mb-4">Landing Page</h1> */}
-        </div>
-        </div>
+      className="relative w-full h-screen overflow-hidden"
+    >
+      <div className="container w-full h-full">
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute top-0 left-0 w-full h-full object-fill z-[-10]"
+        >
+          <source src="/helltoons/Helltoons Landing Page_2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </section>
   );
 };

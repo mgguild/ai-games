@@ -13,13 +13,15 @@ const Games = () => {
       link: 'https://msw.gg',
     },
     {
+      image: '/HELTOONS.png',
+      text: 'Build your toon army with this card collecting game with short but tense matches!',
+      link: 'https://astrainteractive.studio/helltoons',
+    },
+    {
       image: '/ORBLITZ.png',
       text: 'An arena shooter where you utilize orbiting orbs to defeat waves of enemies.',
     },
-    {
-      image: '/HELTOONS.png',
-      text: 'Build your toon army with this card collecting game with short but tense matches!',
-    },
+    
   ];
 
   const handlers = useSwipeable({
@@ -49,21 +51,24 @@ const Games = () => {
                     </div>
                     <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
-                        <Image src="/ORBLITZ.png" alt="icon" width={460} height={240} />
+                        <a href="https://astrainteractive.studio/helltoons"  rel="noopener noreferrer" className="transition-transform transform hover:scale-105"> 
+                        <Image src="/HELTOONS.png" alt="icon" width={460} height={240} />
+                        </a>
                       </div>
                       <div className="container flex items-center justify-center text-center">
                         <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-sm md:text-xs text-base font-medium text-white">
-                          An arena shooter where you utilize orbiting orbs to defeat waves of enemies.
+                          Build your toon army with this card collecting game with short but tense matches!
                         </p>
                       </div>
                     </div>
                     <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
-                        <Image src="/HELTOONS.png" alt="icon" width={460} height={240} />
+                       
+                        <Image src="/ORBLITZ.png" alt="icon" width={460} height={240} />
                       </div>
                       <div className="container flex items-center justify-center text-center">
                         <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-sm md:text-xs text-base font-medium text-white">
-                          Build your toon army with this card collecting game with short but tense matches!
+                          An arena shooter where you utilize orbiting orbs to defeat waves of enemies.
                         </p>
                       </div>
                     </div>
