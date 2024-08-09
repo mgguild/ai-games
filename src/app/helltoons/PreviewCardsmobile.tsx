@@ -7,7 +7,7 @@ const PreviewCardsmobile = () => {
   return (
     <section
     id="previewcardmobile"
-    className="block sm-custom:hidden min-h-screen flex flex-col items-center justify-center bg-cover bg-center w-full"
+    className="sm-custom:hidden min-h-screen flex flex-col items-center justify-center bg-cover bg-center w-full"
     style={{ backgroundImage: "url('/helltoons/BG Swirl.png')" }}
   >
         
