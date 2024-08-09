@@ -7,13 +7,25 @@ const Helltoons = () => {
       className="relative w-full h-screen overflow-hidden"
     >
       <div className="container w-full h-full">
+        {/* Desktop Video */}
         <video
           autoPlay
           loop
           muted
-          className="absolute top-0 left-0 w-full h-full object-fill z-[-10]"
+          className="hidden sm:block absolute top-0 left-0 w-full h-full object-fill z-[-10]"
         >
           <source src="/helltoons/Helltoons Landing Page_2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        {/* Mobile Video */}
+        <video
+          autoPlay
+          loop
+          muted
+          className="block sm:hidden absolute pt-24 top-0 left-0 w-full h-full object-fill z-[-10]"
+        >
+          <source src="/helltoons/Helltoons Landing Page Mobile_1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

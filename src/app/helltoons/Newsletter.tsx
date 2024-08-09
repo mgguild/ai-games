@@ -42,7 +42,7 @@ const Newsletter: React.FC = () => {
     >
       <div className="max-w-7xl w-full mx-auto lg:pr-52 items-center">
         <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-7 ">
-          <div className="bg-transparent pt-16 text-center lg:text-left">
+          <div className="bg-transparent pt-16 text-center lg:text-left  sm:px-0 px-10">
             <h2 className="text-3xl font-bold mb-4 text-white">Join the Newsletter</h2>
             <p className="text-lg font-medium text-white mb-6">
             Find out what your favorite helltoon denizen is up to, from enemies to their favorite attack combo.
@@ -79,7 +79,7 @@ const Newsletter: React.FC = () => {
             </form>
           </div>
 
-          <div className="flex flex-col lg:flex-row items-end">
+          <div className="hidden lg:flex flex-col lg:flex-row items-end">
             <Image
               src="/helltoons/newsletter2.png"
               alt="Newsletter Graphic 1"
@@ -95,6 +95,25 @@ const Newsletter: React.FC = () => {
               className="w-full h-auto pl-11"
             />
           </div>
+
+          <div className="lg:hidden grid grid-cols-2 gap-4 pt-16">
+            <Image
+              src="/helltoons/newsletter2.png"
+              alt="Newsletter Graphic 1"
+              width={600}
+              height={400}
+              className="w-full h-auto"
+            />
+            <Image
+              src="/helltoons/newsletter1.png"
+              alt="Newsletter Graphic 2"
+              width={600}
+              height={400}
+              className="w-full h-[216px]"
+            />
+          </div>
+
+
         </div>
       </div>
     </div>
