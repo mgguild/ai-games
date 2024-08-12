@@ -3,6 +3,7 @@ import Download from "./Downloadhere";
 import Helltoons from "./Homepage";
 import Newsletter from "./Newsletter";
 import PreviewCards from "./PreviewCards";
+import PreviewCardsmobile from "./PreviewCardsmobile";
 
 export default function Hero(){
     return (
@@ -13,8 +14,12 @@ export default function Hero(){
         <div id="aboutpage">
             <Aboutpage />
         </div>
-        <div id="aboutpage">
+        <div id="previewcard">
             <PreviewCards />
+        </div>
+
+        <div id="previewcardmobile">
+            <PreviewCardsmobile />
         </div>
 
         <div id="downloadhere">

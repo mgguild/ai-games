@@ -44,6 +44,7 @@ module.exports = {
         'lg': '1024px', 
         'ipadPro': '1366px', 
         'desktop': '1920px',
+        'sm-custom': '768px', 
       },
 
       fontSize: {
