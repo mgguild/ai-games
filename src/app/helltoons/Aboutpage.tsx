@@ -28,13 +28,7 @@ const Aboutpage = () => {
             <div className="flex flex-col text-right">
               <h1 className="sm:text-2xl pr-16 text-2xl mb-6 font-bold text-gray-800">Release Date</h1>
               <p className="sm:pl-16 pl-3 pr-16 pb-5 leading-none sm:text-xl text-xs text-gray-800 font-medium mb-5">
-                ETA August 2024
-              </p>
-            </div>
-            <div className="flex flex-col text-right">
-              <h1 className="sm:text-2xl pr-16 text-2xl mb-6 font-bold text-gray-800">Publisher</h1>
-              <p className="sm:pl-16 pl-3 pr-16 pb-5 leading-none sm:text-xl text-xs text-gray-800 font-medium mb-5">
-                Astra Interactive Studios
+                July 24 
               </p>
             </div>
             <div className="flex flex-col text-right">
@@ -104,13 +98,7 @@ const Aboutpage = () => {
             <div className="flex flex-col text-left">
               <h1 className="sm:text-2xl px-3 text-2xl mb-4 font-bold text-gray-800">Release Date</h1>
               <p className="sm:pl-16 pl-3 pr-16 pb-5 leading-none sm:text-xl text-xs text-gray-800 font-medium mb-5">
-                ETA August 2024
-              </p>
-            </div>
-            <div className="flex flex-col text-left">
-              <h1 className="sm:text-2xl px-3 text-2xl mb-4 font-bold text-gray-800">Publisher</h1>
-              <p className="sm:pl-16 pl-3 pr-16 pb-5 leading-none sm:text-xl text-xs text-gray-800 font-medium mb-5">
-                Astra Interactive Studios
+                  July 24 
               </p>
             </div>
             <div className="flex flex-col text-left">

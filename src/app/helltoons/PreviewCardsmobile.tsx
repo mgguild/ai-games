@@ -24,7 +24,7 @@ const PreviewCardsmobile = () => {
               color="white"
               size="lg"
               onClick={handlePrev}
-              className="!absolute top-2/4 left-4 -translate-y-2/4 bg-white rounded-full p-2 shadow-md"
+              className="!absolute top-2/4 left-16 -translate-y-2/4 bg-white rounded-full p-2 shadow-md"
               onPointerEnterCapture={() => { }}
               onPointerLeaveCapture={() => { }}
               placeholder="" // Add placeholder prop
@@ -51,7 +51,7 @@ const PreviewCardsmobile = () => {
               color="white"
               size="lg"
               onClick={handleNext}
-              className="!absolute top-2/4 right-4 -translate-y-2/4 bg-white rounded-full p-2 shadow-md"
+              className="!absolute top-2/4 right-16 -translate-y-2/4 bg-white rounded-full p-2 shadow-md"
               onPointerEnterCapture={() => { }}
               onPointerLeaveCapture={() => { }}
               placeholder="" // Add placeholder prop
@@ -92,7 +92,7 @@ const PreviewCardsmobile = () => {
               <h1 className="text-lg sm:text-xl mb-4 font-bold text-white">
                 Advance Strategy
               </h1>
-              <p className="text-sm sm:text-base font-medium text-white">
+              <p className="text-sm sm:text-base font-medium text-white mx-14">
                 A former general became a butler but he retained his battle prowess usually fighting against the rivals of his master.
                 Burning Vestal
               </p>
