@@ -24,7 +24,7 @@ const PreviewCards = () => {
               color="white"
               size="lg"
               onClick={handlePrev}
-              className="!absolute top-2/4 left-4 -translate-y-2/4 bg-white rounded-full p-2 shadow-md"
+              className="!absolute top-2/4 left-48 -translate-y-2/4 bg-white rounded-full p-2 shadow-md"
               onPointerEnterCapture={() => { }}
               onPointerLeaveCapture={() => { }}
               placeholder="" // Add placeholder prop
@@ -51,7 +51,7 @@ const PreviewCards = () => {
               color="white"
               size="lg"
               onClick={handleNext}
-              className="!absolute top-2/4 right-4 -translate-y-2/4 bg-white rounded-full p-2 shadow-md"
+              className="!absolute top-2/4 right-48 -translate-y-2/4 bg-white rounded-full p-2 shadow-md"
               onPointerEnterCapture={() => { }}
               onPointerLeaveCapture={() => { }}
               placeholder="" // Add placeholder prop
