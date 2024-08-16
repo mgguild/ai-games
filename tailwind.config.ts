@@ -45,6 +45,9 @@ module.exports = {
         'ipadPro': '1366px', 
         'desktop': '1920px',
         'sm-custom': '768px', 
+        'ipadPro2': '1024px', 
+        'ipad-pro': '1024px', 
+        'ipad-mini': { 'min': '1024px', 'max': '1336px' }, 
       },
 
       fontSize: {
