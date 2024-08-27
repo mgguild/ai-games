@@ -106,7 +106,10 @@ const PreviewCardsmobile = () => {
             <div className="flex flex-col items-center text-center px-0">
               <h1 className="text-lg sm:text-xl mb-4 font-bold text-white">Burning Vestal</h1>
               <p className="text-sm sm:text-base font-medium text-white">
-                She must keep the fire alive or else the world will freeze. Well, according to her, we can't really confirm that.
+                She must keep the fire alive or else the world will freeze. 
+              </p>
+              <p className="text-sm sm:text-base font-medium text-white">
+                Well, according to her, we can't really confirm that.
               </p>
             </div>
           </div>
@@ -130,7 +133,10 @@ const PreviewCardsmobile = () => {
             <div className="flex flex-col items-center text-center px-0">
               <h1 className="text-lg sm:text-xl mb-4 font-bold text-white">PS Attack</h1>
               <p className="text-sm sm:text-base font-medium text-white">
-                Master calligrapher, but can't write a confession letter to his crush!
+                Master calligrapher, but can't write a confession letter 
+              </p>
+              <p className="text-sm sm:text-base font-medium text-white">
+                to his crush!
               </p>
             </div>
           </div>

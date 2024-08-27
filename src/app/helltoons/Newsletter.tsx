@@ -109,7 +109,7 @@ const Newsletter: React.FC = () => {
               alt="Newsletter Graphic 2"
               width={600}
               height={400}
-              className="w-full h-[216px]"
+              className="w-full h-[auto]"
             />
           </div>
 
