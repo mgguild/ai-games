@@ -8,6 +8,11 @@ const Games = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
     {
+      image: '/MoleSmash.png',
+      text: 'Mole Smash is an engaging clicker game where players tap their way to earning in-game currency, climbing leaderboards, and competing with friends.',
+      link: 'https://t.me/MoleSmashBot/',
+    },
+    {
       image: '/METASAGA WARRIORS.png',
       text: 'A free-to-own NFT roguelike where you lead a party to stop encroaching corruption.',
       link: 'https://msw.gg',
@@ -17,10 +22,10 @@ const Games = () => {
       text: 'Build your toon army with this card collecting game with short but tense matches!',
       link: 'https://astrainteractive.studio/helltoons',
     },
-    {
-      image: '/ORBLITZ.png',
-      text: 'An arena shooter where you utilize orbiting orbs to defeat waves of enemies.',
-    },
+    // {
+    //   image: '/ORBLITZ.png',
+    //   text: 'An arena shooter where you utilize orbiting orbs to defeat waves of enemies.',
+    // },
     
   ];
 
@@ -37,6 +42,18 @@ const Games = () => {
                     <h1 className="sm:text-4xl text-3xl  mb-6 font-bold text-white">GAMES PORTFOLIO</h1>
                 </div>
                   <div className="hidden md:flex flex-wrap justify-center mt-4">
+                  <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
+                      <div className="relative z-15 flex justify-center mb-4">
+                        <a href="https://t.me/MoleSmashBot/" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-105"> 
+                        <Image src="/MoleSmash.png" alt="icon" width={460} height={240} />
+                        </a>
+                      </div>
+                      <div className="container flex items-center justify-center text-center">
+                        <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-sm md:text-xs text-base font-medium text-white">
+                        Mole Smash is an engaging clicker game where players tap their way to earning in-game currency, climbing leaderboards, and competing with friends.
+                        </p>
+                      </div>
+                    </div>
                     <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
                         <a href="https://msw.gg" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-105">  
@@ -61,7 +78,7 @@ const Games = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
+                    {/* <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
                        
                         <Image src="/ORBLITZ.png" alt="icon" width={460} height={240} />
@@ -71,8 +88,10 @@ const Games = () => {
                           An arena shooter where you utilize orbiting orbs to defeat waves of enemies.
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
+
+              
                   
                   <div className="block md:hidden">
                  
