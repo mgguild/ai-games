@@ -42,14 +42,14 @@ const Games = () => {
                     <h1 className="sm:text-4xl text-3xl  mb-6 font-bold text-white">GAMES PORTFOLIO</h1>
                 </div>
                   <div className="hidden md:flex flex-wrap justify-center mt-4">
-                  <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
+                  <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '500px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
                         <a href="https://t.me/MoleSmashBot/" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-105"> 
                         <Image src="/MoleSmash.png" alt="icon" width={460} height={240} />
                         </a>
                       </div>
                       <div className="container flex items-center justify-center text-center">
-                        <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-sm md:text-xs text-base font-medium text-white">
+                      <p className="sm:mb-0 mb-0 mx-0 leading-none lg:text-justify text-left lg:text-sm md:text-xs text-base font-medium text-white">
                         Mole Smash is an engaging clicker game where players tap their way to earning in-game currency, climbing leaderboards, and competing with friends.
                         </p>
                       </div>
@@ -61,7 +61,7 @@ const Games = () => {
                         </a>
                       </div>
                       <div className="container flex items-center justify-center text-center">
-                        <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-sm md:text-xs text-base font-medium text-white">
+                      <p className="sm:mb-0 mb-0 mx-0 leading-none lg:text-justify text-left lg:text-sm md:text-xs text-base font-medium text-white">
                           A free-to-own NFT roguelike where you lead a party to stop encroaching corruption.
                         </p>
                       </div>
@@ -73,7 +73,7 @@ const Games = () => {
                         </a>
                       </div>
                       <div className="container flex items-center justify-center text-center">
-                        <p className="sm:mb-0 mb-0 mx-6 leading-none lg:text-sm md:text-xs text-base font-medium text-white">
+                      <p className="sm:mb-0 mb-0 mx-0 leading-none lg:text-justify text-left lg:text-sm md:text-xs text-base font-medium text-white">
                           Build your toon army with this card collecting game with short but tense matches!
                         </p>
                       </div>
