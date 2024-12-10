@@ -8,7 +8,7 @@ const Games = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
     {
-      image: '/MoleSmash.png',
+      image: '/MoleSmash2.png',
       text: 'Mole Smash is an engaging clicker game where players tap their way to earning in-game currency, climbing leaderboards, and competing with friends.',
       link: 'https://t.me/MoleSmashBot/',
     },
@@ -45,7 +45,7 @@ const Games = () => {
                   <div className="relative p-4 m-6 flex flex-col items-center justify-center" style={{ height: '500px', width: '100%', maxWidth: '340px' }}>
                       <div className="relative z-15 flex justify-center mb-4">
                         <a href="https://t.me/MoleSmashBot/" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-105"> 
-                        <Image src="/MoleSmash.png" alt="icon" width={460} height={240} />
+                        <Image src="/MoleSmash2.png" alt="icon" width={460} height={240} />
                         </a>
                       </div>
                       <div className="container flex items-center justify-center text-center">
