@@ -60,7 +60,7 @@ const Games = () => {
         </button>
 
         {/* Swipeable Area */}
-        <div {...handlers} className="overflow-hidden w-full">
+        <div {...handlers} className="hidden sm:flex overflow-hidden w-full">
           <div
             className="flex md:flex-row flex-col transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -80,6 +80,33 @@ const Games = () => {
                   <h1 className="text-purple-400 text-2xl mb-2">{slide.title}</h1>
                   <h2 className="text-blue-300 text-sm mb-4 italic">{slide.subtitle}</h2>
                   <p className="text-white text-sm pr-24">{slide.text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+           {/* Swipeable Area */}
+           <div {...handlers} className="block lg:hidden w-full flex justify-center">
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          >
+            {slides.map((slide, index) => (
+              <div key={index} className="flex-none w-full flex flex-col items-center p-4 text-center">
+                <div className="w-full flex justify-center">
+                  {slide.link ? (
+                    <a href={slide.link} target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition">
+                      <Image src={slide.image} alt="Game" width={320} height={180} className="mx-auto" />
+                    </a>
+                  ) : (
+                    <Image src={slide.image} alt="Game" width={320} height={180} className="mx-auto" />
+                  )}
+                </div>
+                <div className="mt-4">
+                  <h1 className="text-purple-400 text-2xl mb-2">{slide.title}</h1>
+                  <h2 className="text-blue-300 text-sm mb-4 italic">{slide.subtitle}</h2>
+                  <p className="text-white text-sm">{slide.text}</p>
                 </div>
               </div>
             ))}
