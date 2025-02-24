@@ -1,136 +1,64 @@
-import React from 'react'
-import Image from "next/image"
+import React from 'react';
+import Image from 'next/image';
 
 const Services = () => {
   return (
-        <section id="services" className="text-gray-700 body-font min-h-screen ">
-        <div className=" pl-16 pr-16 py-24 items-center md:px-0">
-            <div className="flex flex-col text-center w-full mb-15 pt-4 lg:pb-0 md:pb-32">
-                <h1 className="sm:text-4xl text-3xl mb-16 font-bold text-purple-800">SERVICES</h1>
-            </div>
-            
-              {/* desktop view */}
-              <div className="hidden sm:flex sm:flex-col flex-row justify-center">
-                <div className="flex justify-center items-center pt-12">
-                  <div className="flex justify-between gap-6">
-                    <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '340px' }}>
-                      <div className="mb-4 mt-4">
-                        <Image src="/game development icon.png" alt="icon" width={150} height={140} />
-                      </div>
-                      <div className="text-center">
-                        <h1 className="text-xl lg:text-xl md:text-lg font-bold text-violet-700 mb-4">Game Development</h1>
-                        <p className="text-sm lg:text-sm md:text-xs font-medium text-gray-800 mx-6">
-                          We handle every stage of game creation, from initial concept and design to development and final launch, ensuring a polished and engaging product.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '340px' }}>
-                      <div className="mb-4 mt-4">
-                        <Image src="/web3 icon.png" alt="icon" width={140} height={140} />
-                      </div>
-                      <div className="text-center">
-                        <h1 className="text-xl lg:text-xl md:text-lg font-bold text-violet-700 mb-4">Web3 Integration</h1>
-                        <p className="text-sm lg:text-sm md:text-xs font-medium text-gray-800 mx-6">
-                          Embrace the future of gaming with our seamless integration of Blockchain and Web3 functionalities. We're revolutionizing 
-                          gameplay and ownership, enabling secure, transparent interactions and true digital ownership that transform player experiences.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex justify-center items-center pt-12">
-                  <div className="flex justify-between gap-6">
-                    <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '340px' }}>
-                      <div className="mb-4 mt-4">
-                        <Image src="/custom solutions icon.png" alt="icon" width={150} height={140} />
-                      </div>
-                      <div className="text-center">
-                        <h1 className="text-xl lg:text-xl md:text-lg font-bold text-violet-700 mb-4">Custom Solutions</h1>
-                        <p className="text-sm lg:text-sm md:text-xs font-medium text-gray-800 mx-6">
-                          We offer tailored solutions designed to meet your specific needs, fostering innovation and uniqueness in every project. 
-                          Our team works closely with you to create unique features that enhance gameplay, engage users, and ensure your 
-                          game stands out in the competitive market.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '340px' }}>
-                      <div className="mb-4 mt-4">
-                        <Image src="/consultation icon.png" alt="icon" width={179} height={160} />
-                      </div>
-                      <div className="text-center">
-                        <h1 className="text-xl lg:text-xl md:text-lg font-bold text-violet-700 mb-4">Consultation</h1>
-                        <p className="text-sm lg:text-sm md:text-xs font-medium text-gray-800 mx-6">
-                          Leverage the expertise of our seasoned professionals for comprehensive guidance tailored to your project. 
-                          We ensure your game aligns perfectly with current industry trends and user preferences, helping you 
-                          make informed decisions that elevate your game’s impact and success.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <section id="services" className="bg-gradient-to-b from-black via-black to-purple-900 min-h-screen py-20">
+      {/* Desktop view */}
+        <div className="hidden sm:flex flex-col items-center justify-center">
+          <h1 className="text-5xl font-bold text-white mb-16 mt-20">SERVICES</h1>
+          <div className="grid grid-cols-4 gap-8 max-w-6xl mx-auto items-start">
 
-              {/* mobile view */}
-              <div className="flex flex-col sm:hidden justify-center flex-wrap">
-                    <div className="flex justify-center items-center pt-6 w-full">
-                      <div className="flex flex-col justify-between gap-6">
-                        <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '460px', width: '100%', maxWidth: '340px' }}>
-                          <div className="mb-4 mt-4">
-                            <Image src="/game development icon.png" alt="icon" width={150} height={140} />
-                          </div>
-                          <div className="text-center">
-                            <h1 className="text-xl font-bold text-violet-700 mb-4">Game Development</h1>
-                            <p className="text-sm font-medium text-gray-800 mx-6">
-                              We handle every stage of game creation, from initial concept and design to development and final launch, ensuring a polished and engaging product.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '520px', width: '100%', maxWidth: '340px' }}>
-                          <div className="mb-4 mt-4">
-                            <Image src="/web3 icon.png" alt="icon" width={140} height={140} />
-                          </div>
-                          <div className="text-center">
-                            <h1 className="text-xl font-bold text-violet-700 mb-4">Web3 Integration</h1>
-                            <p className="text-sm font-medium text-gray-800 mx-6">
-                              Embrace the future of gaming with our seamless integration of Blockchain and Web3 functionalities. We're revolutionizing gameplay and ownership, enabling secure, transparent interactions and true digital ownership that transform player experiences.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex justify-center items-center pt-6 w-full">
-                      <div className="flex flex-col justify-between gap-6">
-                        <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '540px', width: '100%', maxWidth: '340px' }}>
-                          <div className="mb-4 mt-4">
-                            <Image src="/custom solutions icon.png" alt="icon" width={150} height={140} />
-                          </div>
-                          <div className="text-center">
-                            <h1 className="text-xl font-bold text-violet-700 mb-4">Custom Solutions</h1>
-                            <p className="text-sm font-medium text-gray-800 mx-6">
-                              We offer tailored solutions designed to meet your specific needs, fostering innovation and uniqueness in every project. Our team works closely with you to create unique features that enhance gameplay, engage users, and ensure your game stands out in the competitive market.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="relative bg-violet-100 rounded-3xl p-4 m-2 shadow-lg flex flex-col items-center" style={{ height: '540px', width: '100%', maxWidth: '340px' }}>
-                          <div className="mb-4 mt-4">
-                            <Image src="/consultation icon.png" alt="icon" width={179} height={160} />
-                          </div>
-                          <div className="text-center">
-                            <h1 className="text-xl font-bold text-violet-700 mb-4">Consultation</h1>
-                            <p className="text-sm font-medium text-gray-800 mx-6">
-                              Leverage the expertise of our seasoned professionals for comprehensive guidance tailored to your project. We ensure your game aligns perfectly with current industry trends and user preferences, helping you make informed decisions that elevate your game’s impact and success.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-
-
-
+          <div className="bg-transparent border border-purple-500 rounded-xl p-8 text-center shadow-lg hover:shadow-purple-500/50 flex flex-col items-center">
+            <Image src="/game development icon.png" alt="Game Development" width={120} height={120} />
+            <h2 className="text-xl font-bold text-purple-400 mt-4">Game Development</h2>
+            <p className="text-gray-300 mt-2">We handle every stage of game creation, from initial concept and design to development and final launch, ensuring a polished and engaging product.</p>
           </div>
-        </section>
-  )
-}
+          
+          <div className="bg-transparent border border-purple-500 rounded-xl p-8 text-center shadow-lg hover:shadow-purple-500/50 flex flex-col items-center mt-16">
+            <Image src="/web3 icon.png" alt="Web3 Integration" width={120} height={120} />
+            <h2 className="text-xl font-bold text-purple-400 mt-4">Web3 Integration</h2>
+            <p className="text-gray-300 mt-2">Integrating blockchain and Web3 for secure, transparent interactions and true digital ownership.</p>
+          </div>
+          
+          <div className="bg-transparent border border-purple-500 rounded-xl p-8 text-center shadow-lg hover:shadow-purple-500/50 flex flex-col items-center mt-32">
+            <Image src="/custom solutions icon.png" alt="Custom Solutions" width={120} height={120} />
+            <h2 className="text-xl font-bold text-purple-400 mt-4">Custom Solutions</h2>
+            <p className="text-gray-300 mt-2">Tailored solutions to meet your unique needs and create standout features.</p>
+          </div>
+          
+          <div className="bg-transparent border border-purple-500 rounded-xl p-8 text-center shadow-lg hover:shadow-purple-500/50 flex flex-col items-center mt-48">
+            <Image src="/consultation icon.png" alt="Consultation" width={120} height={120} />
+            <h2 className="text-xl font-bold text-purple-400 mt-4">Consultation</h2>
+            <p className="text-gray-300 mt-2">Expert guidance to align your game with industry trends and maximize impact.</p>
+          </div>
+        </div>
+      </div>
 
-export default Services
+      {/* Mobile view */}
+      <div className="block lg:hidden"> 
+      <div className="container mx-auto text-center">
+        <h1 className="text-5xl font-bold text-white mb-16">SERVICES</h1>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 md:px-16">
+          {[
+            { img: "/game development icon.png", title: "Game Development", desc: "We handle every stage of game creation, from initial concept and design to development and final launch, ensuring a polished and engaging product." },
+            { img: "/web3 icon.png", title: "Web3 Integration", desc: "Integrating blockchain and Web3 for secure, transparent interactions and true digital ownership." },
+            { img: "/custom solutions icon.png", title: "Custom Solutions", desc: "Tailored solutions to meet your unique needs and create standout features." },
+            { img: "/consultation icon.png", title: "Consultation", desc: "Expert guidance to align your game with industry trends and maximize impact." }
+          ].map((service, index) => (
+            <div key={index} className="bg-transparent border border-purple-500 rounded-xl p-8 text-center shadow-lg hover:shadow-purple-500/50 h-full flex flex-col items-center">
+              <Image src={service.img} alt={service.title} width={120} height={120} />
+              <h2 className="text-xl font-bold text-purple-400 mt-4">{service.title}</h2>
+              <p className="text-gray-300 mt-2">{service.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      </div>
+      
+    </section>
+  );
+};
+
+export default Services;

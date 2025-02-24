@@ -1,82 +1,76 @@
 import React from "react";
 import Image from "next/image";
 
+type TeamMember = {
+  name: string;
+  position: string;
+  image: string;
+};
+
+const teamMembers: TeamMember[] = [
+  { name: "Andy Agnas", position: "CEO", image: "/team/andy2.png" },
+  { name: "Morris Perico", position: "COO", image: "/team/morris2.png" },
+  { name: "Rico Zuniga", position: "Advisor", image: "/team/rico2.png" },
+  { name: "Mike Reveno", position: "Lead Game Developer", image: "/team/mike2.png" },
+  { name: "Kevin Kyle Hendrick Baldo", position: "Full Stack Developer", image: "/team/kevin2.png" },
+  { name: "Salvador Amba Jr.", position: "Game Developer", image: "/team/jambs2.png" },
+  { name: "Diana Gee Delas Alas", position: "Front End Developer", image: "/team/gee2.png" },
+  { name: "Alfonse Cristofano Nasayao", position: "Game Artist", image: "/team/alfonse2.png" },
+  { name: "Shanie Polagñe", position: "UI/UX Designer", image: "/team/shanie2.png" },
+  { name: "Jess Pardiñas", position: "QA Specialist", image: "/team/jess2.png" },
+];
+
 const Team = () => {
   return (
-    <section
-      id="team"
-      className="flex flex-col items-center justify-center bg-white w-full"
-    >
-      <div className="flex flex-col sm:pt-20 pt-28 sm:pb-2 pb-0 text-center">
-        <h1 className="sm:text-4xl text-3xl sm:mb-7 mb-4 font-large text-violet-800 text-shadow font-bold">
-          TEAM
-          </h1>
-        </div>
-        {/* Desktop view */}
+    <section id="team" className="flex flex-col items-center justify-center bg-black w-full py-16">
+      <h1 className="text-5xl font-bold text-white text-shadow text-center mt-20 mb-10">TEAM</h1>
+      
         <div className="hidden sm:block">
-        <div className="flex justify-center items-center md:px-28 lg:px-32 ">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4 items-center sm:w-4/5 w-80 ">
-            <Image src="/team/ANDY.png" width={250} height={0} sizes="100vw" alt="andy" className="" />
-            <Image src="/team/MORRIS.png" width={250} height={0} sizes="100vw" alt="rico" className="" />
-            <Image src="/team/RICO.png" width={250} height={0} sizes="100vw" alt="rico" className="" />
-          </div>
-        </div>
-            {/* Image Grid Section 2 */}
-        <div className="flex justify-center items-center mt-4">
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center sm:w-4/5 w-80">
-            <Image src="/team/MIKE.png" width={250} height={0} sizes="100vw" alt="salvador" className="" />
-            <Image src="/team/KEVIN.png" width={250} height={0} sizes="100vw" alt="rico" className="" />
-            <Image src="/team/SALVADOR.png" width={250} height={0} sizes="100vw" alt="salvador" className="" />
-            <Image src="/team/GEE.png" width={250} height={0} sizes="100vw" alt="gee" className="hidden sm:block" />
-          </div>
-        </div>
-    
-        <div className="flex justify-center items-center md:px-28 lg:px-32 mt-4">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4 items-center sm:w-4/5 w-80 ">
-            <Image src="/team/ALFONSE.png" width={250} height={0} sizes="100vw" alt="alfonse" className="" />
-            <Image src="/team/SHANIE.png" width={250} height={0} sizes="100vw" alt="alfonse" className="hidden sm:block" />
-            <Image src="/team/JESS.png" width={250} height={0} sizes="100vw" alt="alfonse" className="hidden sm:block" />
-          </div>
-        </div>
-        </div>
-        {/* Image Grid Section 3 */}
-        {/* <div className="flex justify-center items-center mt-4 md:px-48 px-32">
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center sm:w-4/5 w-80">
-          </div>
-        </div> */}
+              {/* First row (3 members) */}
+            <div className="flex justify-center gap-8 mb-8">
+              {teamMembers.slice(0, 3).map((member, index) => (
+                <MemberCard key={index} member={member} />
+              ))}
+            </div>
 
-        
-        {/*mobile view */}
-        <div className="block sm:hidden">
-          {/* Image Grid Section 1 */}
-        <div className="flex justify-center items-center md:px-28 lg:px-32 ">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4 items-center sm:w-4/5 w-80 ">
-            <Image src="/team/ANDY.png" width={250} height={0} sizes="100vw" alt="andy" className="" />
-            <Image src="/team/MORRIS.png" width={250} height={0} sizes="100vw" alt="rico" className="" />
-            <Image src="/team/RICO.png" width={250} height={0} sizes="100vw" alt="rico" className="" />
-            <Image src="/team/MIKE.png" width={250} height={0} sizes="100vw" alt="salvador" className="" />
-          </div>
+            {/* Second row (4 members) */}
+            <div className="flex justify-center gap-8 mb-8">
+              {teamMembers.slice(3, 7).map((member, index) => (
+                <MemberCard key={index} member={member} />
+              ))}
+            </div>
+
+            {/* Third row (3 members) */}
+            <div className="flex justify-center gap-8">
+              {teamMembers.slice(7, 10).map((member, index) => (
+                <MemberCard key={index} member={member} />
+              ))}
+            </div>
         </div>
-        {/* Image Grid Section 2 */}
-        <div className="flex justify-center items-center mt-4">
-          <div className="grid grid-cols-2 sm:grid-cols-4  gap-4 items-center sm:w-4/5 w-80">
-            <Image src="/team/KEVIN.png" width={250} height={0} sizes="100vw" alt="rico" className="" />
-            <Image src="/team/SALVADOR.png" width={250} height={0} sizes="100vw" alt="salvador" className="" />
-            <Image src="/team/GEE.png" width={250} height={0} sizes="100vw" alt="gee" className="" />
-            <Image src="/team/ALFONSE.png" width={250} height={0} sizes="100vw" alt="alfonse" className="" />
-          </div>
+        <div className="block lg:hidden">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          {teamMembers.map((member, index) => (
+            <MemberCard key={index} member={member} />
+          ))}
         </div>
-        {/* Image Grid Section 3 */}
-        <div className="flex justify-center items-center mt-4 ">
-          <div className="grid grid-cols-2 sm:grid-cols-4  gap-4 items-center sm:w-4/5 w-80">
-            <Image src="/team/SHANIE.png" width={250} height={0} sizes="100vw" alt="alfonse" className="" />
-            <Image src="/team/JESS.png" width={250} height={0} sizes="100vw" alt="alfonse" className="" />
-          </div>
         </div>
-       </div>
-       
     </section>
   );
 };
+
+// Define type for MemberCard props
+type MemberCardProps = {
+  member: TeamMember;
+};
+
+const MemberCard: React.FC<MemberCardProps> = ({ member }) => (
+  <div className="relative group">
+  <Image src={member.image} width={250} height={300} alt={member.name} className="rounded-lg shadow-lg" />
+  <div className="absolute inset-y-8 inset-x-5  flex flex-col items-center justify-end rounded-lg p-4">
+    <h2 className="text-white font-bold text-sm text-center">{member.name}</h2>
+    <p className="text-indigo-500 text-xs">{member.position}</p>
+  </div>
+</div>
+);
 
 export default Team;

@@ -15,7 +15,7 @@ const Home = () => {
         muted
         className="absolute inset-0 w-full h-full object-cover z-[-10]"
       >
-        <source src="/background_2.mp4" type="video/mp4" />
+        <source src="/homevid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -25,16 +25,16 @@ const Home = () => {
         muted
         className="absolute inset-0 w-full h-full object-cover z-[-10] md:hidden"
       >
-        <source src="/mobile bg.mp4" type="video/mp4" />
+        <source src="/home_mobile.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-70 z-[-5]" />
+      {/* Dark Overlay */}
+      {/* <div className="absolute inset-0 bg-black opacity-70 z-[-5]" /> */}
 
       
-      
+      {/*  BIG LOGO     
       <div className="flex flex-col justify-center items-center min-h-screen pt-32 px-16 py-24 z-10">
         <Image
           src="/astra logo new.png"
@@ -43,12 +43,12 @@ const Home = () => {
           height={560}
           objectPosition="relative"
           className="relative drop-shadow-custom-black" // Add more prominent shadow to the image
-        />
+        /> */}
         {/* <h1 className="text-5xl text-white text-center font-bold title-font mt-5 drop-shadow-2xl">
           ASTRA INTERACTIVE STUDIOS, INC.
         </h1> */}
 
-      </div>
+      {/* </div> */}
 
     </section>
   );
