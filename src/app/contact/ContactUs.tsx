@@ -36,18 +36,18 @@ const ContactUs = () => {
           backgroundColor: "rgba(0, 0, 0, 0.5)",
           backgroundBlendMode: "darken" 
         }}>
-        
-        <div className="flex items-center justify-center space-x-4 py-6">
-          <h1 className="text-6xl font-bold text-white drop-shadow-lg">CONTACT US</h1>
-        </div>
 
         <div className="items-center mt-10 w-full max-w-7xl flex justify-evenly">
           {/* Text Section */}
-          <div className="w-full flex items-center justify-center">
-            <p className="text-4xl font-bold text-yellow-400 tracking-wide uppercase text-center">Have Questions?<br/>Feel Free to Reach Out</p>
+          <div className="w-full hidden sm:flex items-center justify-center">
+            <p className="text-4xl font-bold text-white tracking-wide uppercase text-center">Have Questions?<br/>Feel Free to Reach Out</p>
           </div>
           {/* Form Section */}
           <div className="w-full relative">
+            <div className="flex items-center justify-center space-x-4 pt-0 pb-12">
+              <h1 className="text-6xl font-bold text-white drop-shadow-lg">CONTACT US</h1>
+            </div>
+            <p className="block lg:hidden text-xl font-bold text-white tracking-wide uppercase text-center pb-4">Have Questions?<br/>Feel Free to Reach Out</p>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-4 relative">
               <div className="flex space-x-4">
                 <input type="text" name="user_name" placeholder="Name" className="w-1/2 p-3 bg-gray-800 text-white rounded-lg border border-purple-500 focus:ring-2 focus:ring-purple-300 outline-none" required />

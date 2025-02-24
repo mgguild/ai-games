@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className=" fixed w-full z-20 top-0 md:w-full ipadPro:w-full ipadPro:left-0 desktop:w-full">
-      <div className="max-w-8xl mx-auto sm:px-20 px-5 flex justify-between sm:justify-around items-center py-4">
+      <div className="max-w-8xl mx-auto sm:px-20 px-5 flex justify-between sm:justify-between items-center py-4">
         <div className="flex items-center space-x-6">
           <a href="/" className="text-white" onClick={closeNavbar}>
             <Image src="/android-chrome-512x512.png" alt="logo" width={45} height={30} />
