@@ -15,7 +15,7 @@ const Home = () => {
         muted
         className="absolute inset-0 w-full h-full object-cover z-[-10]"
       >
-        <source src="/homevid.mp4" type="video/mp4" />
+        <source src="/homee.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -25,7 +25,7 @@ const Home = () => {
         muted
         className="absolute inset-0 w-full h-full object-cover z-[-10] md:hidden"
       >
-        <source src="/home_mobile.mp4" type="video/mp4" />
+        <source src="/home_mobile2.0.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

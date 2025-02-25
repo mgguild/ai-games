@@ -14,8 +14,8 @@ const Footer = () => {
                 <Image
                   src="/new logo.png"
                   alt="logo"
-                  width={280}
-                  height={250}
+                  width={250}
+                  height={180}
                 />
               </a>
               {/* <p className="mb-5 text-white text-xxs">ASTRA INTERACTIVE STUDIOS, INC.</p> */}
