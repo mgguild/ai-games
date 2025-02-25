@@ -55,7 +55,7 @@ const ContactUs = () => {
               <textarea name="message" placeholder="Your Message" className="w-full p-3 h-48 bg-gray-800 text-white rounded-lg border border-purple-500 focus:ring-2 focus:ring-purple-300 outline-none" required></textarea>
               <button
                 type="submit"
-                className="w-full p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white font-bold transition-colors hover:from-yellow-400 hover:to-yellow-400"
+                className="w-full p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white font-bold transition-colors hover:from-purple-600 hover:to-purple-600"
               >
                 SEND MESSAGE
               </button>
