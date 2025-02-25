@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useSwipeable } from "react-swipeable";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -43,6 +43,15 @@ const Games = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
   };
 
+  // Auto-loop effect
+    useEffect(() => {
+      const interval = setInterval(() => {
+        nextSlide();
+      }, 3000); // Change slide every 3 seconds
+  
+      return () => clearInterval(interval); // Cleanup interval on unmount
+    }, [currentIndex]);
+
   return (
     <section id="games" className="min-h-screen flex flex-col items-center justify-center bg-black">
       <div className="text-center w-full mb-6">
@@ -50,7 +59,7 @@ const Games = () => {
       </div>
 
       {/* Slider */}
-      <div className="relative w-full max-w-6xl flex flex-col md:flex-row items-center justify-center">
+      <div className="relative w-full max-w-6xl flex flex-col md:flex-row items-center justify-center pb-20">
         {/* Left Button */}
         <button
           onClick={prevSlide}
@@ -59,7 +68,7 @@ const Games = () => {
           <ChevronLeft size={24} />
         </button>
 
-        {/* Swipeable Area */}
+        {/* Swipeable Area Desktop View*/}
         <div {...handlers} className="hidden sm:flex overflow-hidden w-full">
           <div
             className="flex md:flex-row flex-col transition-transform duration-500 ease-in-out"
@@ -77,7 +86,16 @@ const Games = () => {
                   )}
                 </div>
                 <div className="md:w-1/2 p-4 text-center md:text-left">
-                  <h1 className="text-purple-400 text-2xl mb-2">{slide.title}</h1>
+                  <h1 className="text-purple-400 text-2xl mb-2">  
+                    <a 
+                      href={slide.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      {slide.title}
+                    </a>
+                    </h1>
                   <h2 className="text-blue-300 text-sm mb-4 italic">{slide.subtitle}</h2>
                   <p className="text-white text-sm pr-24">{slide.text}</p>
                 </div>
@@ -86,7 +104,7 @@ const Games = () => {
           </div>
         </div>
 
-           {/* Swipeable Area */}
+           {/* Swipeable Area Mobile view*/}
            <div {...handlers} className="block lg:hidden w-full flex justify-center">
           <div
             className="flex transition-transform duration-500 ease-in-out"
@@ -104,7 +122,16 @@ const Games = () => {
                   )}
                 </div>
                 <div className="mt-4">
-                  <h1 className="text-purple-400 text-2xl mb-2">{slide.title}</h1>
+                  <h1 className="text-purple-400 text-2xl mb-2">
+                    <a 
+                      href={slide.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      {slide.title}
+                    </a>
+                  </h1>
                   <h2 className="text-blue-300 text-sm mb-4 italic">{slide.subtitle}</h2>
                   <p className="text-white text-sm">{slide.text}</p>
                 </div>

@@ -25,28 +25,35 @@ const Team = () => {
     <section id="team" className="flex flex-col items-center justify-center bg-black w-full py-16">
       <h1 className="text-5xl font-bold text-white text-shadow text-center mt-20 mb-10">TEAM</h1>
       
-        <div className="hidden sm:block">
-              {/* First row (3 members) */}
-            <div className="flex justify-center gap-8 mb-8">
-              {teamMembers.slice(0, 3).map((member, index) => (
-                <MemberCard key={index} member={member} />
-              ))}
+      <div className="hidden sm:block">
+        {/* First row (3 members) */}
+        <div className="flex justify-center gap-8 mb-8">
+          {teamMembers.slice(0, 3).map((member, index) => (
+            <div key={index} className="shadow-lg hover:shadow-purple-500/60 transition-shadow duration-300 rounded-lg">
+              <MemberCard member={member} />
             </div>
-
-            {/* Second row (4 members) */}
-            <div className="flex justify-center gap-8 mb-8">
-              {teamMembers.slice(3, 7).map((member, index) => (
-                <MemberCard key={index} member={member} />
-              ))}
-            </div>
-
-            {/* Third row (3 members) */}
-            <div className="flex justify-center gap-8">
-              {teamMembers.slice(7, 10).map((member, index) => (
-                <MemberCard key={index} member={member} />
-              ))}
-            </div>
+          ))}
         </div>
+
+        {/* Second row (4 members) */}
+        <div className="flex justify-center gap-8 mb-8">
+          {teamMembers.slice(3, 7).map((member, index) => (
+            <div key={index} className="shadow-lg hover:shadow-purple-500/60 transition-shadow duration-300 rounded-lg">
+              <MemberCard member={member} />
+            </div>
+          ))}
+        </div>
+
+        {/* Third row (3 members) */}
+        <div className="flex justify-center gap-8">
+          {teamMembers.slice(7, 10).map((member, index) => (
+            <div key={index} className="shadow-lg hover:shadow-purple-500/60 transition-shadow duration-300 rounded-lg">
+              <MemberCard member={member} />
+            </div>
+          ))}
+        </div>
+      </div>
+
         <div className="block lg:hidden">
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
@@ -66,8 +73,8 @@ type MemberCardProps = {
 const MemberCard: React.FC<MemberCardProps> = ({ member }) => (
   <div className="relative group">
   <Image src={member.image} width={250} height={300} alt={member.name} className="rounded-lg shadow-lg" />
-  <div className="absolute inset-y-8 inset-x-5  flex flex-col items-center justify-end rounded-lg p-4">
-    <h2 className="text-white font-bold text-sm text-center">{member.name}</h2>
+  <div className="absolute inset-y-8 inset-x-5  flex flex-col items-center justify-end rounded-lg p-0 sm:p-4">
+    <h2 className="text-white font-bold sm:text-based text-sm text-center">{member.name}</h2>
     <p className="text-indigo-500 text-xs">{member.position}</p>
   </div>
 </div>

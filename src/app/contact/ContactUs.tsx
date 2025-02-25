@@ -37,17 +37,16 @@ const ContactUs = () => {
           backgroundBlendMode: "darken" 
         }}>
 
-        <div className="items-center mt-10 w-full max-w-7xl flex justify-evenly">
+        <div className="items-center mt-10 w-full max-w-2xl flex justify-evenly">
           {/* Text Section */}
-          <div className="w-full hidden sm:flex items-center justify-center">
+          {/* <div className="w-full hidden sm:flex items-center justify-center">
             <p className="text-4xl font-bold text-white tracking-wide uppercase text-center">Have Questions?<br/>Feel Free to Reach Out</p>
-          </div>
+          </div> */}
           {/* Form Section */}
           <div className="w-full relative">
             <div className="flex items-center justify-center space-x-4 pt-0 pb-12">
-              <h1 className="text-6xl font-bold text-white drop-shadow-lg">CONTACT US</h1>
+              <h1 className="text-6xl font-bold text-white drop-shadow-lg text-center">CONTACT US</h1>
             </div>
-            <p className="block lg:hidden text-xl font-bold text-white tracking-wide uppercase text-center pb-4">Have Questions?<br/>Feel Free to Reach Out</p>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-4 relative">
               <div className="flex space-x-4">
                 <input type="text" name="user_name" placeholder="Name" className="w-1/2 p-3 bg-gray-800 text-white rounded-lg border border-purple-500 focus:ring-2 focus:ring-purple-300 outline-none" required />
@@ -56,7 +55,7 @@ const ContactUs = () => {
               <textarea name="message" placeholder="Your Message" className="w-full p-3 h-48 bg-gray-800 text-white rounded-lg border border-purple-500 focus:ring-2 focus:ring-purple-300 outline-none" required></textarea>
               <button
                 type="submit"
-                className="w-full p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white font-bold transition-colors hover:from-yellow-400 hover:to-yellow-400"
+                className="w-full p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white font-bold transition-colors hover:from-purple-600 hover:to-purple-600"
               >
                 SEND MESSAGE
               </button>
