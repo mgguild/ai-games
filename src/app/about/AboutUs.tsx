@@ -16,11 +16,11 @@ const AboutUs = () => {
             <h1 className="title-font sm:text-6xl text-6xl mb-16 font-bold text-white mt-8">
               ABOUT
             </h1>
-            <p className="sm:px-16 px-3 lg:w-5/6 w-full leading-loose lg:text-2xl sm:text-xl text-xl text-white font-medium mb-20">
+            <p className="sm:px-16 px-3 w-5/6 leading-loose lg:text-2xl sm:text-xl text-xl text-white font-medium mb-20">
               Astra Interactive Studios is a team of passionate creators dedicated to pushing the boundaries of gaming experiences.
               Our vision is to blend innovation with entertainment, aiming to make games that stand out in the industry.
             </p>
-            <p className="sm:px-16 px-3 lg:w-5/6 w-full leading-loose lg:text-2xl sm:text-xl text-xl text-white font-medium">
+            <p className="sm:px-16 px-3 w-5/6 leading-loose lg:text-2xl sm:text-xl text-xl text-white font-medium">
               Our team consists of diverse talents, including developers, designers, and strategists, all driven by the desire
               to craft exceptional games that resonate with audiences globally. We are committed to excellence and constantly
               seek to raise the bar in gaming through innovation and creativity.
