@@ -25,19 +25,19 @@ const Navbar = () => {
         </div>
         <div className="hidden ipadPro:block">
           <div className="flex space-x-4">
-            <Link href="/#about_us" className="text-white text-xl font-medium focus:underline hover:underline hover:text-pink-500 decoration-4 underline-offset-4" onClick={closeNavbar}>
+            <Link href="/#about_us" className="text-white text-xl font-medium  hover:text-pink-500 decoration-4 focus:text-pink-500  underline-offset-4" onClick={closeNavbar}>
                 About
             </Link>
-            <Link href="/#games" className="text-white text-xl font-medium focus:underline hover:underline hover:text-pink-500 decoration-4 underline-offset-4" onClick={closeNavbar}>
+            <Link href="/#games" className="text-white text-xl font-medium  hover:text-pink-500 decoration-4 focus:text-pink-500 underline-offset-4" onClick={closeNavbar}>
               Portfolio
               </Link>
-            <Link href="/#services" className="text-white text-xl font-medium focus:underline hover:underline hover:text-pink-500 decoration-4 underline-offset-4" onClick={closeNavbar}>
+            <Link href="/#services" className="text-white text-xl font-medium  hover:text-pink-500 decoration-4 focus:text-pink-500 underline-offset-4" onClick={closeNavbar}>
               Services
               </Link>
-            <Link href="/#team" className="text-white text-xl font-medium focus:underline hover:underline hover:text-pink-500 decoration-4 underline-offset-4" onClick={closeNavbar}>
+            <Link href="/#team" className="text-white text-xl font-medium  hover:text-pink-500 decoration-4 focus:text-pink-500 underline-offset-4" onClick={closeNavbar}>
               Team
               </Link>
-            <Link href="/#contact_us" className="text-white text-xl font-medium focus:underline hover:underline hover:text-pink-500 decoration-4 underline-offset-4" onClick={closeNavbar}>
+            <Link href="/#contact_us" className="text-white text-xl font-medium  hover:text-pink-500 decoration-4 focus:text-pink-500 underline-offset-4" onClick={closeNavbar}>
               Contact Us
             </Link>
           </div>
@@ -59,22 +59,22 @@ const Navbar = () => {
       {isClick && (
         <div className="ipadPro:hidden text-center bg-black/50">
           <div className="px-5 pt-5 pb-9 space-y-2">
-            <Link href="/" className="text-white   font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <Link href="/" className="text-white   font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:text-pink-500 hover:text-pink-500" onClick={closeNavbar}>
               HOME
             </Link>
-            <Link href="/#about_us" className="text-white  font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <Link href="/#about_us" className="text-white  font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:text-pink-500 hover:text-pink-500" onClick={closeNavbar}>
               ABOUT
             </Link>
-            <Link href="/#games" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <Link href="/#games" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:text-pink-500 hover:text-pink-500" onClick={closeNavbar}>
               PORTFOLIO
             </Link>
-            <Link href="/#services" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <Link href="/#services" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:text-pink-500 hover:text-pink-500" onClick={closeNavbar}>
               SERVICES
             </Link> 
-            <Link href="/#team" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <Link href="/#team" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:text-pink-500 hover:text-pink-500" onClick={closeNavbar}>
               TEAM
             </Link>
-            <Link href="/#contact_us" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <Link href="/#contact_us" className="text-white font-medium text-2xl leading-10 block transition duration-300 focus:outline-none focus:text-pink-500 hover:text-pink-500" onClick={closeNavbar}>
               CONTACT US
             </Link>
           </div>
