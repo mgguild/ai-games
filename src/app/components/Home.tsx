@@ -14,6 +14,7 @@ const Home = () => {
         loop
         muted
         className="absolute inset-0 w-full h-full object-cover z-[-10]"
+        poster="/fallback-image.jpg" // <-- fallback image while the video is loading
       >
         <source src="/homee.mp4" type="video/mp4" />
         Your browser does not support the video tag.
